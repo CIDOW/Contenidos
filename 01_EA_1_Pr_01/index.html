@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style\style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="malla" id="malla">
+
+        <div class="renglon_0">
+            <fieldset>
+                <div class="prg">
+                        <div>
+                            
+                            <input type="button" value="Nuevo" onclick="nuevoJuego(lista)">
+                            <input type="button" value="Evaluar" onclick="evaluarRespuestas(lista)">
+                            <p id="mensaje"></p>
+                        </div>
+                        <div>63 Hz</div>
+                        <div>125 Hz</div>
+                        <div>250 Hz</div>
+                        <div>500 Hz</div>
+                        <div>1000 Hz</div>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="renglon_1">
+            <fieldset> 
+                <div class="prg">
+                    <div class="Enun01">
+                        Pr 01 <audio width="300" height="60" controls="controls"><source src="audio\01.wav" type="audio/webm"/>Your browser does not support HTML5 audio. Please update your browser to view this media content.</audio>
+                    </div>
+                    <div class="a01">
+                        <fieldset>
+                        <input type="radio" name="b1" id="r0101" >
+                        </fieldset> 
+                    </div>
+                    <div class="a02">
+                        <fieldset>
+                        <input type="radio" name="b1" id="r0102">
+                        </fieldset> 
+                    </div>
+                    <div class="a03">
+                        <fieldset>
+                        <input type="radio" name="b1" id="r0103">
+                        </fieldset> 
+                    </div>
+                    <div class="a04">
+                        <fieldset>
+                        <input type="radio" name="b1" id="r0104">
+                        </fieldset> 
+                    </div>
+                    <div class="a05">
+                        <fieldset>
+                        <input type="radio" name="b1" id="r0105">
+                        </fieldset> 
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    
+        <div class="renglon_2">
+            <fieldset> 
+                <div class="prg">
+                    <div class="Enun01">
+                        Pr 02 <audio width="300" height="60" controls="controls"><source src="audio\02.wav" type="audio/webm"/>Your browser does not support HTML5 audio. Please update your browser to view this media content.</audio>
+                    </div>
+                    <div class="a01">
+                        <fieldset>
+                        <input type="radio" name="b2" id="r0201" >
+                        </fieldset> 
+                    </div>
+                    <div class="a02">
+                        <fieldset>
+                        <input type="radio" name="b2" id="r0202">
+                        </fieldset> 
+                    </div>
+                    <div class="a03">
+                        <fieldset>
+                        <input type="radio" name="b2" id="r0203">
+                        </fieldset> 
+                    </div>
+                    <div class="a04">
+                        <fieldset>
+                        <input type="radio" name="b2" id="r0204">
+                        </fieldset> 
+                    </div>
+                    <div class="a05">
+                        <fieldset>
+                        <input type="radio" name="b2" id="r0205">
+                        </fieldset> 
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+       
+        <div class="renglon_3">
+            <fieldset> 
+                <div class="prg">
+                    <div class="Enun01">
+                        Pr 03 <audio width="300" height="60" controls="controls"><source src="audio\03.wav" type="audio/webm"/>Your browser does not support HTML5 audio. Please update your browser to view this media content.</audio>
+                    </div>
+                    <div class="a01">
+                        <fieldset>
+                        <input type="radio" name="b3" id="r0301" >
+                        </fieldset> 
+                    </div>
+                    <div class="a02">
+                        <fieldset>
+                        <input type="radio" name="b3" id="r0302">
+                        </fieldset> 
+                    </div>
+                    <div class="a03">
+                        <fieldset>
+                        <input type="radio" name="b3" id="r0303">
+                        </fieldset> 
+                    </div>
+                    <div class="a04">
+                        <fieldset>
+                        <input type="radio" name="b3" id="r0304">
+                        </fieldset> 
+                    </div>
+                    <div class="a05">
+                        <fieldset>
+                        <input type="radio" name="b3" id="r0305">
+                        </fieldset> 
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+      
+        <div class="renglon_4">
+            <fieldset> 
+                <div class="prg">
+                    <div class="Enun01">
+                        Pr 04 <audio width="300" height="60" controls="controls"><source src="audio\04.wav" type="audio/webm"/>Your browser does not support HTML5 audio. Please update your browser to view this media content.</audio>
+                    </div>
+                    <div class="a01">
+                        <fieldset>
+                        <input type="radio" name="b4" id="r0401" >
+                        </fieldset> 
+                    </div>
+                    <div class="a02">
+                        <fieldset>
+                        <input type="radio" name="b4" id="r0402">
+                        </fieldset> 
+                    </div>
+                    <div class="a03">
+                        <fieldset>
+                        <input type="radio" name="b4" id="r0403">
+                        </fieldset> 
+                    </div>
+                    <div class="a04">
+                        <fieldset>
+                        <input type="radio" name="b4" id="r0404">
+                        </fieldset> 
+                    </div>
+                    <div class="a05">
+                        <fieldset>
+                        <input type="radio" name="b4" id="r0405">
+                        </fieldset> 
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+            
+        <div class="renglon_5">
+            <fieldset> 
+                <div class="prg">
+                    <div class="Enun01">
+                        Pr 05 <audio width="300" height="60" controls="controls"><source src="audio\05.wav" type="audio/webm"/>Your browser does not support HTML5 audio. Please update your browser to view this media content.</audio>
+                    </div>
+                    <div class="a01">
+                        <fieldset>
+                        <input type="radio" name="b5" id="r0501" >
+                        </fieldset> 
+                    </div>
+                    <div class="a02">
+                        <fieldset>
+                        <input type="radio" name="b5" id="r0502">
+                        </fieldset> 
+                    </div>
+                    <div class="a03">
+                        <fieldset>
+                        <input type="radio" name="b5" id="r0503">
+                        </fieldset> 
+                    </div>
+                    <div class="a04">
+                        <fieldset>
+                        <input type="radio" name="b5" id="r0504">
+                        </fieldset> 
+                    </div>
+                    <div class="a05">
+                        <fieldset>
+                        <input type="radio" name="b5" id="r0505">
+                        </fieldset> 
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        
+        <div class="renglon_6">
+            <fieldset> 
+                <div class="prg">
+                    <div class="Enun01">
+                        Pr 06 <audio width="300" height="60" controls="controls"><source src="audio\01.wav" type="audio/webm"/>Your browser does not support HTML5 audio. Please update your browser to view this media content.</audio>
+                    </div>
+                    <div class="a01">
+                        <fieldset>
+                        <input type="radio" name="b6" id="r0601" >
+                        </fieldset> 
+                    </div>
+                    <div class="a02">
+                        <fieldset>
+                        <input type="radio" name="b6" id="r0602">
+                        </fieldset> 
+                    </div>
+                    <div class="a03">
+                        <fieldset>
+                        <input type="radio" name="b6" id="r0603">
+                        </fieldset> 
+                    </div>
+                    <div class="a04">
+                        <fieldset>
+                        <input type="radio" name="b6" id="r0604">
+                        </fieldset> 
+                    </div>
+                    <div class="a05">
+                        <fieldset>
+                        <input type="radio" name="b6" id="r0605">
+                        </fieldset> 
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    
+        <div class="renglon_7">
+            <fieldset> 
+                <div class="prg">
+                    <div class="Enun01">
+                        Pr 07 <audio width="300" height="60" controls="controls"><source src="audio\02.wav" type="audio/webm"/>Your browser does not support HTML5 audio. Please update your browser to view this media content.</audio>
+                    </div>
+                    <div class="a01">
+                        <fieldset>
+                        <input type="radio" name="b7" id="r0701" >
+                        </fieldset> 
+                    </div>
+                    <div class="a02">
+                        <fieldset>
+                        <input type="radio" name="b7" id="r0702">
+                        </fieldset> 
+                    </div>
+                    <div class="a03">
+                        <fieldset>
+                        <input type="radio" name="b7" id="r0703">
+                        </fieldset> 
+                    </div>
+                    <div class="a04">
+                        <fieldset>
+                        <input type="radio" name="b7" id="r0704">
+                        </fieldset> 
+                    </div>
+                    <div class="a05">
+                        <fieldset>
+                        <input type="radio" name="b7" id="r0705">
+                        </fieldset> 
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+       
+        <div class="renglon_8">
+            <fieldset> 
+                <div class="prg">
+                    <div class="Enun01">
+                        Pr 08 <audio width="300" height="60" controls="controls"><source src="audio\03.wav" type="audio/webm"/>Your browser does not support HTML5 audio. Please update your browser to view this media content.</audio>
+                    </div>
+                    <div class="a01">
+                        <fieldset>
+                        <input type="radio" name="b8" id="r0801" >
+                        </fieldset> 
+                    </div>
+                    <div class="a02">
+                        <fieldset>
+                        <input type="radio" name="b8" id="r0802">
+                        </fieldset> 
+                    </div>
+                    <div class="a03">
+                        <fieldset>
+                        <input type="radio" name="b8" id="r0803">
+                        </fieldset> 
+                    </div>
+                    <div class="a04">
+                        <fieldset>
+                        <input type="radio" name="b8" id="r0804">
+                        </fieldset> 
+                    </div>
+                    <div class="a05">
+                        <fieldset>
+                        <input type="radio" name="b8" id="r0805">
+                        </fieldset> 
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+      
+        <div class="renglon_9">
+            <fieldset> 
+                <div class="prg">
+                    <div class="Enun01">
+                        Pr 09 <audio width="300" height="60" controls="controls"><source src="audio\04.wav" type="audio/webm"/>Your browser does not support HTML5 audio. Please update your browser to view this media content.</audio>
+                    </div>
+                    <div class="a01">
+                        <fieldset>
+                        <input type="radio" name="b9" id="r0901" >
+                        </fieldset> 
+                    </div>
+                    <div class="a02">
+                        <fieldset>
+                        <input type="radio" name="b9" id="r0902">
+                        </fieldset> 
+                    </div>
+                    <div class="a03">
+                        <fieldset>
+                        <input type="radio" name="b9" id="r0903">
+                        </fieldset> 
+                    </div>
+                    <div class="a04">
+                        <fieldset>
+                        <input type="radio" name="b9" id="r0904">
+                        </fieldset> 
+                    </div>
+                    <div class="a05">
+                        <fieldset>
+                        <input type="radio" name="b9" id="r0905">
+                        </fieldset> 
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+            
+        <div class="renglon_10">
+            <fieldset> 
+                <div class="prg">
+                    <div class="Enun01">
+                        Pr 10 <audio width="300" height="60" controls="controls"><source src="audio\05.wav" type="audio/webm"/>Your browser does not support HTML5 audio. Please update your browser to view this media content.</audio>
+                    </div>
+                    <div class="a01">
+                        <fieldset>
+                        <input type="radio" name="b10" id="r1001" >
+                        </fieldset> 
+                    </div>
+                    <div class="a02">
+                        <fieldset>
+                        <input type="radio" name="b10" id="r1002">
+                        </fieldset> 
+                    </div>
+                    <div class="a03">
+                        <fieldset>
+                        <input type="radio" name="b10" id="r1003">
+                        </fieldset> 
+                    </div>
+                    <div class="a04">
+                        <fieldset>
+                        <input type="radio" name="b10" id="r1004">
+                        </fieldset> 
+                    </div>
+                    <div class="a05">
+                        <fieldset>
+                        <input type="radio" name="b10" id="r1005">
+                        </fieldset> 
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+
+    </div>
+    <script src="app\app.js"></script>
+
+    
+</body>
+</html>

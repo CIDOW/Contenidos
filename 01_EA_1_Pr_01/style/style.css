@@ -1,0 +1,62 @@
+.malla{
+    display: grid;
+    /* background-color: blue; */
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "renglon_0"
+    "renglon_1"
+    "renglon_2"
+    "renglon_3"
+    "renglon_4"
+    "renglon_5"
+    "renglon_6"
+    "renglon_7"
+    "renglon_8"
+    "renglon_9"
+    "renglon_10"
+    ;
+}
+.prg {
+    display: grid;
+    grid-template-columns: 300px 100px 100px 100px 100px 100px ;
+
+}
+.renglon_1{
+    grid-area: renglon_1;
+}
+
+.renglon_2{
+    grid-area: renglon_2;
+}
+
+.renglon_3{
+    grid-area: renglon_3;
+}
+
+.renglon_4{
+    grid-area: renglon_4;
+}
+
+.renglon_5{
+    grid-area: renglon_5;
+}
+
+.renglon_6{
+    grid-area: renglon_6;
+}
+
+.renglon_7{
+    grid-area: renglon_7;
+}
+
+.renglon_8{
+    grid-area: renglon_8;
+}
+
+.renglon_9{
+    grid-area: renglon_9;
+}
+
+.renglon_10{
+    grid-area: renglon_10;
+}
