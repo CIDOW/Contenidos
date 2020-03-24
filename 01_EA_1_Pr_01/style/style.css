@@ -3,7 +3,8 @@
     position: absolute;
      top: 100px; 
     /* left: 30px;   */
-    background-color: #ff8800;
+    font-weight: bold;
+    background-color:  #41b4d3;
     /* background-color: blue; */
     grid-template-columns: 1fr;
     grid-template-areas: 
