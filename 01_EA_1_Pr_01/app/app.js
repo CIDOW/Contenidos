@@ -70,6 +70,24 @@ function nuevoJuego(lista){
 
 }
 
+function colorizanteAleatorio(lista){
+let r,g,b, rgb;
+let bc ;
+
+for(i=0;i<lista.length;i++){
+    rC = "renglon_" + (i+1);
+    r = Math.random().toString(16).substr(2,2);
+    g = 'a5';
+    b =  Math.random().toString(16).substr(2,2)
+    rgb = '#' + r + g + b;
+    bc = document.getElementsByClassName("renglon_" + (i+1) );
+    bc[0].style.backgroundColor = rgb;
+    console.log(bc)
+}
+  
+ 
+
+}
 
 //laMalla[0].style.backgroundColor = "yellow";
 
@@ -81,4 +99,4 @@ function nuevoJuego(lista){
 
 fisherAndYates(lista);
 rebujaPreguntas(lista);
-
+colorizanteAleatorio(lista);

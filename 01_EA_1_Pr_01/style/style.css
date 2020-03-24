@@ -1,9 +1,13 @@
 .malla{
     display: grid;
+    position: absolute;
+     top: 100px; 
+    /* left: 30px;   */
+    background-color: #ff8800;
     /* background-color: blue; */
     grid-template-columns: 1fr;
     grid-template-areas: 
-    "renglon_0"
+    /* "renglon_0" */
     "renglon_1"
     "renglon_2"
     "renglon_3"
@@ -18,9 +22,24 @@
 }
 .prg {
     display: grid;
-    grid-template-columns: 300px 100px 100px 100px 100px 100px ;
+    grid-template-columns: 300px 105px 105px 105px 105px 105px ;
 
 }
+
+.renglon_0{
+    background-color: #41b4d3;
+    z-index: 1;
+    /* opacity:1; */
+    position: fixed;
+     top: 0px; 
+     font-weight: bold;
+}
+
+audio{
+    
+    
+}
+
 .renglon_1{
     grid-area: renglon_1;
 }
