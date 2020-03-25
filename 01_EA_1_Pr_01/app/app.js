@@ -1,8 +1,6 @@
 let mensajes = document.getElementById('mensaje');
 mensajes.innerHTML = "Cargando audio files..."
-window.addEventListener('load', (event) => {
-    mensajes.innerHTML = "¡Estamos listos!"
-});
+
 const enuncTxt = "Indique en qué frecuencia se produce el incremento de 12dB sobre la señal de Ruido Rosa";
 let enunciado = document.getElementById('enunciado');
 enunciado.innerHTML = enuncTxt;
@@ -13,6 +11,19 @@ let retos = 1;
 let laMalla = document.getElementsByClassName('malla');
 let lista = new Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 let estiloMalla = "", spc = " ";
+let cargador = "";
+
+function audioCargado(){
+    cargador = cargador + '*'
+    
+    if(cargador.length < 10){
+    mensajes.innerHTML = "Cargando archivos..."+cargador
+    } else if(cargador.length == 10){
+        mensajes.innerHTML = "¡Estamos listos!";
+    }
+}
+
+
 
 //aleator x 10
 function fisherAndYates(lista) {
