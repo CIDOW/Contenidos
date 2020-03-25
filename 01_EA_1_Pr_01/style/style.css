@@ -34,8 +34,14 @@
     position: fixed;
      top: 0px; 
      font-weight: bold;
+     margin: 0px;
+     /* padding: 0px; */
 }
+.enunciado{
+    margin: 10px;
+    
 
+}
 audio{
     
     
