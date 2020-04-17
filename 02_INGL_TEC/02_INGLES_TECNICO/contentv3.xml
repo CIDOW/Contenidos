@@ -3,7 +3,7 @@
 <instance xmlns="http://www.exelearning.org/content/v0.3" reference="21" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
-  <unicode value="Inglés Técnido "></unicode>
+  <unicode value="Inglés Técnico "></unicode>
   <string role="key" value="idevices"></string>
   <list></list>
   <string role="key" value="_addPagination"></string>
@@ -69,7 +69,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -1443,7 +1443,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
               <int value="2"></int>
               <string role="key" value="exportType"></string>
-              <string value="singlepage"></string>
+              <string value="website"></string>
               <string role="key" value="last_full_node_path"></string>
               <string value="exe-node:INSTITUTO%20ORSON%20WELLES%20-%20Ingl%C3%A9s%20T%C3%A9cnico:S02.%20Cables%20and%20connectors-%20PA%20system"></string>
               <string role="key" value="parent"></string>
@@ -1498,7 +1498,7 @@ and select the size of the area to display it in."></unicode>
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
      <int value="2"></int>
      <string role="key" value="exportType"></string>
-     <string value="singlepage"></string>
+     <string value="website"></string>
      <string role="key" value="last_full_node_path"></string>
      <string value="exe-node:INSTITUTO%20ORSON%20WELLES%20-%20Ingl%C3%A9s%20T%C3%A9cnico"></string>
      <string role="key" value="parent"></string>
@@ -1527,7 +1527,7 @@ and select the size of the area to display it in."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="8"></reference>
+  <reference key="3"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -1558,7 +1558,7 @@ and select the size of the area to display it in."></unicode>
     <string role="key" value="subject"></string>
     <unicode value=""></unicode>
     <string role="key" value="title"></string>
-    <unicode value="Inglés Técnido "></unicode>
+    <unicode value="Inglés Técnico "></unicode>
     <string role="key" value="type"></string>
     <unicode value=""></unicode>
    </dictionary>
@@ -1844,7 +1844,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="Ingl\xc3\xa9s T\xc3\xa9cnido "></string>
+           <string value="Ingl\xc3\xa9s T\xc3\xa9cnico "></string>
           </dictionary>
          </instance>
         </list>
@@ -2351,7 +2351,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="Ingl\xc3\xa9s T\xc3\xa9cnido "></string>
+           <string value="Ingl\xc3\xa9s T\xc3\xa9cnico "></string>
           </dictionary>
          </instance>
         </list>
