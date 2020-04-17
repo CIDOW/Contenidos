@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<presentation availableOffline="1" guid="79CC0BC4-7AB6-4E3D-806F-150EB963DDB8" version="0">
+	<info>
+		<title>Inglés_técnico_vocabulary_0199_SIMULACRO</title>
+		<description/>
+	</info>
+	<files index="id34" thumbnail="id30" totalSize="2818421">
+		<file id="id0">data/apple-touch-icon.png</file>
+		<file id="id1">data/audios/snd-170185007f1700e7447d4656b9e1270fcb2edc3c.mp3</file>
+		<file id="id2">data/audios/snd-5c85259d964553719dc6de8ac4ed05b6d7c59675.mp3</file>
+		<file id="id3">data/audios/snd-89ff6580974b34f829150f6fe2bc09c5fbb94b64.mp3</file>
+		<file id="id4">data/audios/snd-8de3db49c3c9a3208c49ba50020b32c6bba0cb28.mp3</file>
+		<file id="id5">data/audios/snd-a8406c7ee29ca180b7eb839930225bd75f9f0630.mp3</file>
+		<file id="id6">data/audios/snd-bd6029b6812b7fe8856d9558f817bfec6d846e82.mp3</file>
+		<file id="id7">data/audios/snd-d0e1bf10e7a6ba4bdc842d44ec0ff9108811286a.mp3</file>
+		<file id="id8">data/audios/snd-d501d4c1c5d541ad5e2a111ad613157cd2604d0f.mp3</file>
+		<file id="id9">data/audios/snd-dc4291b400a31e6824de28b87367a562b8c21a91.mp3</file>
+		<file id="id10">data/audios/snd-de9403855d5b2a83a01f1a608a32dab3f5984523.mp3</file>
+		<file id="id11">data/audios/snd-e301c2ff75b0222fdf79a1951db86e6f04437ad1.mp3</file>
+		<file id="id12">data/audios/snd-e6cdc8f1f816b4f9e2d1b34c8a0b440654af1c6b.mp3</file>
+		<file id="id13">data/audios/snd-eb39da229dbcdc05e6a87c8892635af41165fc1c.mp3</file>
+		<file id="id14">data/audios/snd-f1adc50baaf5261679da37f8ab58cb97f809abeb.mp3</file>
+		<file id="id15">data/browsersupport.js</file>
+		<file id="id16">data/favicon.ico</file>
+		<file id="id17">data/fonts/fnt0.woff</file>
+		<file id="id18">data/fonts/fnt1.woff</file>
+		<file id="id19">data/fonts/fnt2.woff</file>
+		<file id="id20">data/html5-unsupported.html</file>
+		<file id="id21">data/html5.png</file>
+		<file id="id22">data/images/img-35be41c2ca2f4fa0f9cec179c74e86e557d68071.jpg</file>
+		<file id="id23">data/images/img-471e8165ef0e01398ab2a60ef10265628991d53c.jpg</file>
+		<file id="id24">data/images/img-47b5545ed29a1290621c3ea5ba2eabe606c80750.jpg</file>
+		<file id="id25">data/images/img-547d3195e97ab37fa5054bed46e439e1a36ae3c7.jpg</file>
+		<file id="id26">data/images/img-8d4ca9626605d274993ff7e22f3bfc6ea1d6c896.jpg</file>
+		<file id="id27">data/images/img-bf74fea1b2c6e40971a0b0461cd4f17d408bfba8.jpg</file>
+		<file id="id28">data/ismplayer/app_store2x.png</file>
+		<file id="id29">data/ismplayer/play.svg</file>
+		<file id="id30">data/ismplayer/preview.png</file>
+		<file id="id31">data/ismplayer/style.css</file>
+		<file id="id32">data/ismplayer/style_mini.css</file>
+		<file id="id33">data/player.js</file>
+		<file id="id34">index.html</file>
+		<file id="id35">ismplayer.html</file>
+		<file id="id36">preview.png</file>
+	</files>
+</presentation>
+
