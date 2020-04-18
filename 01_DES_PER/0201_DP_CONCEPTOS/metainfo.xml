@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<presentation availableOffline="1" guid="A8AA41D7-8E02-4F6C-AAA3-98C1DA0B1B29" version="0">
+	<info>
+		<title>0201_DP_CONCEPTOS</title>
+		<description/>
+	</info>
+	<files index="id15" thumbnail="id11" totalSize="1857548">
+		<file id="id0">data/apple-touch-icon.png</file>
+		<file id="id1">data/browsersupport.js</file>
+		<file id="id2">data/favicon.ico</file>
+		<file id="id3">data/fonts/fnt0.woff</file>
+		<file id="id4">data/fonts/fnt1.woff</file>
+		<file id="id5">data/fonts/fnt2.woff</file>
+		<file id="id6">data/html5-unsupported.html</file>
+		<file id="id7">data/html5.png</file>
+		<file id="id8">data/images/img-47b5545ed29a1290621c3ea5ba2eabe606c80750.jpg</file>
+		<file id="id9">data/ismplayer/app_store2x.png</file>
+		<file id="id10">data/ismplayer/play.svg</file>
+		<file id="id11">data/ismplayer/preview.png</file>
+		<file id="id12">data/ismplayer/style.css</file>
+		<file id="id13">data/ismplayer/style_mini.css</file>
+		<file id="id14">data/player.js</file>
+		<file id="id15">index.html</file>
+		<file id="id16">ismplayer.html</file>
+		<file id="id17">preview.png</file>
+	</files>
+</presentation>
+
