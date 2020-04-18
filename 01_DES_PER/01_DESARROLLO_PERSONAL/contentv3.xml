@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<instance xmlns="http://www.exelearning.org/content/v0.3" reference="6" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="11" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
   <unicode value="INSTITUTO SUPERIOR ORSON WELLES "></unicode>
@@ -87,7 +87,7 @@ Ingeniería de sonido"></unicode>
   <string role="key" value="_name"></string>
   <unicode value="01_DESARROLLO_PERSONAL"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="2"></int>
+  <int value="6"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="2"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -171,8 +171,8 @@ Ingeniería de sonido"></unicode>
            <string role="key" value="anchor_names"></string>
            <list></list>
            <string role="key" value="content_w_resourcePaths"></string>
-           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span&gt;Bienvenidos a este espacio creado por nuestra comunidad educativa como una zona donde encontrarás actividades que refuercen las habilidades desarrolladas en clase.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: #000080;&quot;&gt;&lt;strong&gt;Los materiales aquí presentados no reemplazan la sesión pedagógica, la complementa para garantizar tu eficiencia profesional.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span&gt;Bienvenidos a este espacio creado por nuestra comunidad educativa como una zona donde encontrarás actividades que refuercen los temas desarrollados en clase.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #000080;&quot;&gt;&lt;strong&gt;Los materiales aquí presentados no reemplazan la sesión pedagógica la complementa, para garantizar, tu eficiencia profesional.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span&gt;Cualquier duda o sugerencia comunícate por los canales oficiales de la Institución. Estamos muy atentos a tus comentarios y sugerencias que nos ayudarán a enriquecer estos contenidos.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
@@ -296,7 +296,7 @@ Ingeniería de sonido"></unicode>
            <string role="key" value="anchor_names"></string>
            <list></list>
            <string role="key" value="content_w_resourcePaths"></string>
-           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;S02. Autoconocimiento: reconocer nuestras propias señales&lt;/p&gt;&lt;/div&gt;"></unicode>
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;a href=&quot;exe-node:Instituto%20Superior%20Orson%20Welles%20-%20Desarrollo%20Personal:S02.%C2%A0Autoconocimiento%3A%20reconocer%20nuestras%20propias%20se%C3%B1ales#auto_top&quot;&gt;S02. Autoconocimiento: reconocer nuestras propias señales&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
            <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -315,7 +315,378 @@ Ingeniería de sonido"></unicode>
             </dictionary>
            </instance>
            <string role="key" value="intlinks_to_anchors"></string>
-           <dictionary></dictionary>
+           <dictionary>
+            <unicode role="key" value="exe-node:Instituto%20Superior%20Orson%20Welles%20-%20Desarrollo%20Personal:S02.%C2%A0Autoconocimiento%3A%20reconocer%20nuestras%20propias%20se%C3%B1ales#auto_top"></unicode>
+            <instance class="exe.engine.node.Node" reference="8">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="S02. Autoconocimiento: reconocer nuestras propias señales"></unicode>
+              <string role="key" value="idevices"></string>
+              <list>
+               <instance class="exe.engine.jsidevice.JsIdevice" reference="6">
+                <dictionary>
+                 <string role="key" value="_title"></string>
+                 <unicode value="Reforzamiento de conceptos"></unicode>
+                 <string role="key" value="_attributes"></string>
+                 <list>
+                  <tuple>
+                   <string value="title"></string>
+                   <list>
+                    <string value="Title"></string>
+                    <int value="0"></int>
+                    <int value="0"></int>
+                   </list>
+                  </tuple>
+                  <tuple>
+                   <string value="category"></string>
+                   <list>
+                    <string value="Category"></string>
+                    <int value="0"></int>
+                    <int value="1"></int>
+                   </list>
+                  </tuple>
+                  <tuple>
+                   <string value="css-class"></string>
+                   <list>
+                    <string value="CSS class"></string>
+                    <int value="0"></int>
+                    <int value="2"></int>
+                   </list>
+                  </tuple>
+                  <tuple>
+                   <string value="icon"></string>
+                   <list>
+                    <string value="Icon"></string>
+                    <int value="0"></int>
+                    <int value="3"></int>
+                   </list>
+                  </tuple>
+                 </list>
+                 <string role="key" value="_author"></string>
+                 <string value=""></string>
+                 <string role="key" value="_iDeviceDir"></string>
+                 <string value="text"></string>
+                 <string role="key" value="_purpose"></string>
+                 <string value=""></string>
+                 <string role="key" value="_tip"></string>
+                 <string value=""></string>
+                 <string role="key" value="_valid"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="class_"></string>
+                 <unicode value="text"></unicode>
+                 <string role="key" value="edit"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="emphasis"></string>
+                 <int value="1"></int>
+                 <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+                 <int value="1"></int>
+                 <string role="key" value="fields"></string>
+                 <list>
+                  <instance class="exe.engine.field.TextAreaField" reference="7">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <unicode value="111_2"></unicode>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="6"></reference>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="anchor_names"></string>
+                    <list></list>
+                    <string role="key" value="content_w_resourcePaths"></string>
+                    <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;a id=&quot;S02_autoconocimiento&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;Reforzamiento de conceptos&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                    <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                    <int value="3"></int>
+                    <string role="key" value="htmlTag"></string>
+                    <string value="div"></string>
+                    <string role="key" value="images"></string>
+                    <instance class="exe.engine.galleryidevice.GalleryImages">
+                     <dictionary>
+                      <string role="key" value=".listitems"></string>
+                      <list></list>
+                      <string role="key" value="idevice"></string>
+                      <reference key="7"></reference>
+                     </dictionary>
+                    </instance>
+                    <string role="key" value="intlinks_to_anchors"></string>
+                    <dictionary></dictionary>
+                    <string role="key" value="nextImageId"></string>
+                    <int value="0"></int>
+                    <string role="key" value="parentNode"></string>
+                    <none></none>
+                   </dictionary>
+                  </instance>
+                 </list>
+                 <string role="key" value="icon"></string>
+                 <unicode value=""></unicode>
+                 <string role="key" value="id"></string>
+                 <unicode value="2"></unicode>
+                 <string role="key" value="ideviceCategory"></string>
+                 <unicode value="Text and Tasks"></unicode>
+                 <string role="key" value="lastIdevice"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="nextFieldId"></string>
+                 <int value="3"></int>
+                 <string role="key" value="originalicon"></string>
+                 <string value=""></string>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="8"></reference>
+                 <string role="key" value="systemResources"></string>
+                 <list></list>
+                 <string role="key" value="undo"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="userResources"></string>
+                 <list></list>
+                 <string role="key" value="version"></string>
+                 <int value="0"></int>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.externalurlidevice.ExternalUrlIdevice">
+                <dictionary>
+                 <string role="key" value="_title"></string>
+                 <unicode value="External Web Site"></unicode>
+                 <string role="key" value="_author"></string>
+                 <unicode value="University of Auckland"></unicode>
+                 <string role="key" value="_purpose"></string>
+                 <unicode value="The external website iDevice loads an external website 
+into an inline frame in your eXe content rather then opening it in a popup box. 
+This means learners are not having to juggle windows. 
+This iDevice should only be used if your content 
+will be viewed by learners online."></unicode>
+                 <string role="key" value="_tip"></string>
+                 <string value=""></string>
+                 <string role="key" value="_urlInstruc"></string>
+                 <unicode value="Enter the URL you wish to display
+and select the size of the area to display it in."></unicode>
+                 <string role="key" value="edit"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="emphasis"></string>
+                 <int value="0"></int>
+                 <string role="key" value="exe.engine.externalurlidevice.ExternalUrlIdevice.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="height"></string>
+                 <unicode value="200"></unicode>
+                 <string role="key" value="icon"></string>
+                 <string value=""></string>
+                 <string role="key" value="id"></string>
+                 <unicode value="3"></unicode>
+                 <string role="key" value="lastIdevice"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="originalicon"></string>
+                 <string value=""></string>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="8"></reference>
+                 <string role="key" value="systemResources"></string>
+                 <list></list>
+                 <string role="key" value="undo"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="url"></string>
+                 <unicode value="https://www.orsonwelles.edu.pe"></unicode>
+                 <string role="key" value="userResources"></string>
+                 <list></list>
+                 <string role="key" value="version"></string>
+                 <int value="0"></int>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.jsidevice.JsIdevice" reference="9">
+                <dictionary>
+                 <string role="key" value="_title"></string>
+                 <unicode value="Trabajo Personal 1"></unicode>
+                 <string role="key" value="_attributes"></string>
+                 <list>
+                  <tuple>
+                   <string value="title"></string>
+                   <list>
+                    <string value="Title"></string>
+                    <int value="0"></int>
+                    <int value="0"></int>
+                   </list>
+                  </tuple>
+                  <tuple>
+                   <string value="category"></string>
+                   <list>
+                    <string value="Category"></string>
+                    <int value="0"></int>
+                    <int value="1"></int>
+                   </list>
+                  </tuple>
+                  <tuple>
+                   <string value="css-class"></string>
+                   <list>
+                    <string value="CSS class"></string>
+                    <int value="0"></int>
+                    <int value="2"></int>
+                   </list>
+                  </tuple>
+                  <tuple>
+                   <string value="icon"></string>
+                   <list>
+                    <string value="Icon"></string>
+                    <int value="0"></int>
+                    <int value="3"></int>
+                   </list>
+                  </tuple>
+                 </list>
+                 <string role="key" value="_author"></string>
+                 <string value=""></string>
+                 <string role="key" value="_iDeviceDir"></string>
+                 <string value="text"></string>
+                 <string role="key" value="_purpose"></string>
+                 <string value=""></string>
+                 <string role="key" value="_tip"></string>
+                 <string value=""></string>
+                 <string role="key" value="_valid"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="class_"></string>
+                 <unicode value="text"></unicode>
+                 <string role="key" value="edit"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="emphasis"></string>
+                 <int value="1"></int>
+                 <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+                 <int value="1"></int>
+                 <string role="key" value="fields"></string>
+                 <list>
+                  <instance class="exe.engine.field.TextAreaField" reference="10">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <unicode value="113_2"></unicode>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="9"></reference>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="anchor_names"></string>
+                    <list></list>
+                    <string role="key" value="content_w_resourcePaths"></string>
+                    <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;color: #ffffff;&quot;&gt;Trabajo Personal 1&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                    <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                    <int value="3"></int>
+                    <string role="key" value="htmlTag"></string>
+                    <string value="div"></string>
+                    <string role="key" value="images"></string>
+                    <instance class="exe.engine.galleryidevice.GalleryImages">
+                     <dictionary>
+                      <string role="key" value=".listitems"></string>
+                      <list></list>
+                      <string role="key" value="idevice"></string>
+                      <reference key="10"></reference>
+                     </dictionary>
+                    </instance>
+                    <string role="key" value="intlinks_to_anchors"></string>
+                    <dictionary></dictionary>
+                    <string role="key" value="nextImageId"></string>
+                    <int value="0"></int>
+                    <string role="key" value="parentNode"></string>
+                    <none></none>
+                   </dictionary>
+                  </instance>
+                 </list>
+                 <string role="key" value="icon"></string>
+                 <unicode value=""></unicode>
+                 <string role="key" value="id"></string>
+                 <unicode value="4"></unicode>
+                 <string role="key" value="ideviceCategory"></string>
+                 <unicode value="Text and Tasks"></unicode>
+                 <string role="key" value="lastIdevice"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="nextFieldId"></string>
+                 <int value="3"></int>
+                 <string role="key" value="originalicon"></string>
+                 <string value=""></string>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="8"></reference>
+                 <string role="key" value="systemResources"></string>
+                 <list></list>
+                 <string role="key" value="undo"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="userResources"></string>
+                 <list></list>
+                 <string role="key" value="version"></string>
+                 <int value="0"></int>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.externalurlidevice.ExternalUrlIdevice">
+                <dictionary>
+                 <string role="key" value="_title"></string>
+                 <unicode value="External Web Site"></unicode>
+                 <string role="key" value="_author"></string>
+                 <unicode value="University of Auckland"></unicode>
+                 <string role="key" value="_purpose"></string>
+                 <unicode value="The external website iDevice loads an external website 
+into an inline frame in your eXe content rather then opening it in a popup box. 
+This means learners are not having to juggle windows. 
+This iDevice should only be used if your content 
+will be viewed by learners online."></unicode>
+                 <string role="key" value="_tip"></string>
+                 <string value=""></string>
+                 <string role="key" value="_urlInstruc"></string>
+                 <unicode value="Enter the URL you wish to display
+and select the size of the area to display it in."></unicode>
+                 <string role="key" value="edit"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="emphasis"></string>
+                 <int value="0"></int>
+                 <string role="key" value="exe.engine.externalurlidevice.ExternalUrlIdevice.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="height"></string>
+                 <unicode value="500"></unicode>
+                 <string role="key" value="icon"></string>
+                 <string value=""></string>
+                 <string role="key" value="id"></string>
+                 <unicode value="5"></unicode>
+                 <string role="key" value="lastIdevice"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="originalicon"></string>
+                 <string value=""></string>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="8"></reference>
+                 <string role="key" value="systemResources"></string>
+                 <list></list>
+                 <string role="key" value="undo"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="url"></string>
+                 <unicode value="https://cidow.github.io/Contenidos/01_DES_PER/0201_DP_TP_1/"></unicode>
+                 <string role="key" value="userResources"></string>
+                 <list></list>
+                 <string role="key" value="version"></string>
+                 <int value="0"></int>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="_id"></string>
+              <unicode value="1"></unicode>
+              <string role="key" value="_package"></string>
+              <reference key="11"></reference>
+              <string role="key" value="anchor_fields"></string>
+              <list></list>
+              <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exportType"></string>
+              <string value="website"></string>
+              <string role="key" value="last_full_node_path"></string>
+              <string value="exe-node:Instituto%20Superior%20Orson%20Welles%20-%20Desarrollo%20Personal:S02.%C2%A0Autoconocimiento%3A%20reconocer%20nuestras%20propias%20se%C3%B1ales"></string>
+              <string role="key" value="parent"></string>
+              <reference key="3"></reference>
+              <string role="key" value="top_anchors_linked_from_fields"></string>
+              <list>
+               <reference key="5"></reference>
+              </list>
+              <string role="key" value="children"></string>
+              <list></list>
+             </dictionary>
+            </instance>
+           </dictionary>
            <string role="key" value="nextImageId"></string>
            <int value="0"></int>
            <string role="key" value="parentNode"></string>
@@ -351,7 +722,7 @@ Ingeniería de sonido"></unicode>
      <string role="key" value="_id"></string>
      <unicode value="0"></unicode>
      <string role="key" value="_package"></string>
-     <reference key="6"></reference>
+     <reference key="11"></reference>
      <string role="key" value="anchor_fields"></string>
      <list></list>
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -366,37 +737,12 @@ Ingeniería de sonido"></unicode>
      <list></list>
      <string role="key" value="children"></string>
      <list>
-      <instance class="exe.engine.node.Node" reference="7">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="S02. Autoconocimiento: reconocer nuestras propias señales"></unicode>
-        <string role="key" value="idevices"></string>
-        <list></list>
-        <string role="key" value="_id"></string>
-        <unicode value="1"></unicode>
-        <string role="key" value="_package"></string>
-        <reference key="6"></reference>
-        <string role="key" value="anchor_fields"></string>
-        <list></list>
-        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="exportType"></string>
-        <string value="website"></string>
-        <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Instituto%20Superior%20Orson%20Welles%20-%20Desarrollo%20Personal:S02.%C2%A0Autoconocimiento%3A%20reconocer%20nuestras%20propias%20se%C3%B1ales"></string>
-        <string role="key" value="parent"></string>
-        <reference key="3"></reference>
-        <string role="key" value="top_anchors_linked_from_fields"></string>
-        <list></list>
-        <string role="key" value="children"></string>
-        <list></list>
-       </dictionary>
-      </instance>
+      <reference key="8"></reference>
      </list>
     </dictionary>
    </instance>
    <unicode role="key" value="1"></unicode>
-   <reference key="7"></reference>
+   <reference key="8"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -404,10 +750,14 @@ Ingeniería de sonido"></unicode>
   <unicode value=""></unicode>
   <string role="key" value="_templateFile"></string>
   <string value="Base"></string>
+  <string role="key" value="anchor_nodes"></string>
+  <list>
+   <reference key="8"></reference>
+  </list>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="7"></reference>
+  <reference key="8"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
