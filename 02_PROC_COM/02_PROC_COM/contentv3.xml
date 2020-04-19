@@ -3,7 +3,7 @@
 <instance xmlns="http://www.exelearning.org/content/v0.3" reference="4" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
-  <unicode value="INSTITUTO SUPERIOR ORSON WELLES - PROCESO DE LA COMUNICACIÓN Y REDACCIÓN LABORAL"></unicode>
+  <unicode value="INSTITUTO SUPERIOR ORSON WELLES"></unicode>
   <string role="key" value="idevices"></string>
   <list></list>
   <string role="key" value="_addPagination"></string>
@@ -369,7 +369,7 @@
     <string role="key" value="subject"></string>
     <unicode value=""></unicode>
     <string role="key" value="title"></string>
-    <unicode value="INSTITUTO SUPERIOR ORSON WELLES - PROCESO DE LA COMUNICACIÓN Y REDACCIÓN LABORAL"></unicode>
+    <unicode value="INSTITUTO SUPERIOR ORSON WELLES"></unicode>
     <string role="key" value="type"></string>
     <unicode value=""></unicode>
    </dictionary>
@@ -655,7 +655,7 @@
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="INSTITUTO SUPERIOR ORSON WELLES - PROCESO DE LA COMUNICACI\xc3\x93N Y REDACCI\xc3\x93N LABORAL"></string>
+           <string value="INSTITUTO SUPERIOR ORSON WELLES"></string>
           </dictionary>
          </instance>
         </list>
@@ -1216,7 +1216,7 @@
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="INSTITUTO SUPERIOR ORSON WELLES - PROCESO DE LA COMUNICACI\xc3\x93N Y REDACCI\xc3\x93N LABORAL"></string>
+           <string value="INSTITUTO SUPERIOR ORSON WELLES"></string>
           </dictionary>
          </instance>
         </list>
