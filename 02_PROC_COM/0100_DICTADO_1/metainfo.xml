@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<presentation availableOffline="1" guid="E0DC3797-80B6-4485-AB2F-21FFCC1263F1" version="0">
+	<info>
+		<title>0100_DICTADO_1</title>
+		<description/>
+	</info>
+	<files index="id30" thumbnail="id26" totalSize="2490246">
+		<file id="id0">data/apple-touch-icon.png</file>
+		<file id="id1">data/audios/snd-20fa7425a0438bda93afe07b88eef7713242cb4e.mp3</file>
+		<file id="id2">data/audios/snd-2651c8c24b0ae85d0e3cb79497ea32b9e54ccb6a.mp3</file>
+		<file id="id3">data/audios/snd-48523cefaef493ad3d83a45ad40ce32d0931cac5.mp3</file>
+		<file id="id4">data/audios/snd-4fec13d9dc302a7a61a52a9662900ce886bcc8a4.mp3</file>
+		<file id="id5">data/audios/snd-604d79fe0f479b6b4fe781396fc0b9137c0f3aae.mp3</file>
+		<file id="id6">data/audios/snd-8138c582afe28b3ef7815b3e76f464c889dd5fd9.mp3</file>
+		<file id="id7">data/audios/snd-8346a95caaeba1563247f3d894e333d1ae12b039.mp3</file>
+		<file id="id8">data/audios/snd-847375dc1244adc4b12bb73326d1654e062b3c99.mp3</file>
+		<file id="id9">data/audios/snd-aebcc0113d16cd1ee23847a6c7977b2926fb7abd.mp3</file>
+		<file id="id10">data/audios/snd-b1a82ec9d9f3fdf6616189fb948a49a7ab5243f8.mp3</file>
+		<file id="id11">data/audios/snd-b564c3b19f2a21c6aaf6759f836e9b9b85195891.mp3</file>
+		<file id="id12">data/audios/snd-c724a9dcdc6c3f2c03fbc203eaefe9fd09259d00.mp3</file>
+		<file id="id13">data/audios/snd-f129126d63785eb6540c3a90222be95cdfd1583d.mp3</file>
+		<file id="id14">data/audios/snd-f69ce179a00783694394a963c79c7d1194cae900.mp3</file>
+		<file id="id15">data/audios/snd-fd94bc9a82fec798e017a36385685ff82329466e.mp3</file>
+		<file id="id16">data/browsersupport.js</file>
+		<file id="id17">data/favicon.ico</file>
+		<file id="id18">data/fonts/fnt0.woff</file>
+		<file id="id19">data/fonts/fnt1.woff</file>
+		<file id="id20">data/fonts/fnt2.woff</file>
+		<file id="id21">data/html5-unsupported.html</file>
+		<file id="id22">data/html5.png</file>
+		<file id="id23">data/images/img-47b5545ed29a1290621c3ea5ba2eabe606c80750.jpg</file>
+		<file id="id24">data/ismplayer/app_store2x.png</file>
+		<file id="id25">data/ismplayer/play.svg</file>
+		<file id="id26">data/ismplayer/preview.png</file>
+		<file id="id27">data/ismplayer/style.css</file>
+		<file id="id28">data/ismplayer/style_mini.css</file>
+		<file id="id29">data/player.js</file>
+		<file id="id30">index.html</file>
+		<file id="id31">ismplayer.html</file>
+		<file id="id32">preview.png</file>
+	</files>
+</presentation>
+

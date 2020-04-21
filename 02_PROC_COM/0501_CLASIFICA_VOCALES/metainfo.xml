@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<presentation availableOffline="1" guid="6DDA6D89-9056-4CC4-8D8B-A555E1D96D47" version="0">
+	<info>
+		<title>0501_CLASIFICA_VOCALES</title>
+		<description/>
+	</info>
+	<files index="id21" thumbnail="id17" totalSize="1969700">
+		<file id="id0">data/apple-touch-icon.png</file>
+		<file id="id1">data/browsersupport.js</file>
+		<file id="id2">data/favicon.ico</file>
+		<file id="id3">data/fonts/fnt0.woff</file>
+		<file id="id4">data/fonts/fnt1.woff</file>
+		<file id="id5">data/fonts/fnt2.woff</file>
+		<file id="id6">data/html5-unsupported.html</file>
+		<file id="id7">data/html5.png</file>
+		<file id="id8">data/images/img-17a8215bb2e0cebfe737a57f38ede24f7bc278e6.jpg</file>
+		<file id="id9">data/images/img-40028c441e2871968a534f00a5184d5524d5276e.jpg</file>
+		<file id="id10">data/images/img-47b5545ed29a1290621c3ea5ba2eabe606c80750.jpg</file>
+		<file id="id11">data/images/img-6c7e67b4b482fb6ab38070164d6fd40e3493e8ac.jpg</file>
+		<file id="id12">data/images/img-9f93fb84ce77d99381780422477825204900530b.jpg</file>
+		<file id="id13">data/images/img-b09ca5ad05ab283bcf37f6cc3ffed5da206e3ab2.jpg</file>
+		<file id="id14">data/images/img-c78957452d9758bb67093110fa943d49662ded84.jpg</file>
+		<file id="id15">data/ismplayer/app_store2x.png</file>
+		<file id="id16">data/ismplayer/play.svg</file>
+		<file id="id17">data/ismplayer/preview.png</file>
+		<file id="id18">data/ismplayer/style.css</file>
+		<file id="id19">data/ismplayer/style_mini.css</file>
+		<file id="id20">data/player.js</file>
+		<file id="id21">index.html</file>
+		<file id="id22">ismplayer.html</file>
+		<file id="id23">preview.png</file>
+	</files>
+</presentation>
+
