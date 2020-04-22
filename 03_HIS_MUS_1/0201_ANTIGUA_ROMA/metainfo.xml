@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<presentation availableOffline="1" guid="5B4B118C-8167-472A-A97F-25CDBF116031" version="0">
+<presentation availableOffline="1" guid="1A02A75D-A798-414D-B8CB-0021CAEF851A" version="0">
 	<info>
 		<title>0201_ANTIGUA_ROMA</title>
 		<description/>
 	</info>
-	<files index="id21" thumbnail="id17" totalSize="1962994">
+	<files index="id21" thumbnail="id17" totalSize="1962290">
 		<file id="id0">data/apple-touch-icon.png</file>
 		<file id="id1">data/browsersupport.js</file>
 		<file id="id2">data/favicon.ico</file>
