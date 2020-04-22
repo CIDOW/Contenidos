@@ -69,7 +69,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -85,7 +85,7 @@
   <string role="key" value="_name"></string>
   <unicode value="03_DES_HIS_MUS_2"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="13"></int>
+  <int value="15"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="3"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -424,6 +424,132 @@ and select the size of the area to display it in."></unicode>
          <instance class="exe.engine.jsidevice.JsIdevice" reference="8">
           <dictionary>
            <string role="key" value="_title"></string>
+           <unicode value="Partes de una ópera"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="quext-activity"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="QuExt"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="9">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="122_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="8"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;quext-IDevice&quot;&gt;&lt;div class=&quot;quext-instructions&quot;&gt;&lt;p&gt;¿&lt;strong&gt;Recuerdas las partes de una ópera&lt;/strong&gt;?. En este juego te retamos a que digas qué parte es la que se muestra en el vídeo que te mostramos. &lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;Tendrás 15 segundos para responder&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Son 3 preguntas y tienes 2 vidas aunque seas solo un ser humano, recuerda.&lt;/p&gt;
+&lt;p&gt;Si te gusta esta clase de juegos, pide a tu profesor que te prepare más, con gusto lo tendrás para reforzar tus conocimientos.&lt;/p&gt;
+&lt;p&gt;¡Éxito!&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;quext-DataGame&quot;&gt;{&quot;asignatura&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;authorVideo&quot;:&quot;&quot;,&quot;typeGame&quot;:&quot;QuExt&quot;,&quot;endVideo&quot;:0,&quot;idVideo&quot;:&quot;&quot;,&quot;startVideo&quot;:0,&quot;instructionsExe&quot;:&quot;%3Cp%3E%BF%3Cstrong%3ERecuerdas%20las%20partes%20de%20una%20%F3pera%3C/strong%3E%3F.%20En%20este%20juego%20te%20retamos%20a%20que%20digas%20qu%E9%20parte%20es%20la%20que%20se%20muestra%20en%20el%20v%EDdeo%20que%20te%20mostramos.%20%3Cspan%20style%3D%22color%3A%20%23ff0000%3B%22%3E%3Cstrong%3ETendr%E1s%2015%20segundos%20para%20responder%3C/strong%3E%3C/span%3E.%3C/p%3E%0A%3Cp%3ESon%203%20preguntas%20y%20tienes%202%20vidas%20aunque%20seas%20solo%20un%20ser%20humano%2C%20recuerda.%3C/p%3E%0A%3Cp%3ESi%20te%20gusta%20esta%20clase%20de%20juegos%2C%20pide%20a%20tu%20profesor%20que%20te%20prepare%20m%E1s%2C%20con%20gusto%20lo%20tendr%E1s%20para%20reforzar%20tus%20conocimientos.%3C/p%3E%0A%3Cp%3E%A1%C9xito%21%3C/p%3E&quot;,&quot;instructions&quot;:&quot;Elija la respuesta correcta &quot;,&quot;showMinimize&quot;:false,&quot;optionsRamdon&quot;:true,&quot;answersRamdon&quot;:true,&quot;showSolution&quot;:true,&quot;timeShowSolution&quot;:3,&quot;useLives&quot;:true,&quot;numberLives&quot;:2,&quot;itinerary&quot;:{&quot;showClue&quot;:false,&quot;clueGame&quot;:&quot;&quot;,&quot;percentageClue&quot;:40,&quot;showCodeAccess&quot;:false,&quot;codeAccess&quot;:&quot;&quot;,&quot;messageCodeAccess&quot;:&quot;&quot;},&quot;questionsGame&quot;:[{&quot;type&quot;:2,&quot;time&quot;:0,&quot;numberOptions&quot;:3,&quot;x&quot;:0,&quot;y&quot;:0,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;url&quot;:&quot;https://youtu.be/uWBzP9Fuzf4&quot;,&quot;soundVideo&quot;:1,&quot;imageVideo&quot;:1,&quot;iVideo&quot;:104,&quot;fVideo&quot;:151,&quot;eText&quot;:&quot;&quot;,&quot;quextion&quot;:&quot;¿Qué parte de la ópera \&quot;Las Bodas de Fígaro\&quot; (Mozart) se muestra en este fragmento de vídeo=&quot;,&quot;options&quot;:[&quot;Obertura&quot;,&quot;Recitativo&quot;,&quot;Aria&quot;,&quot;&quot;],&quot;solution&quot;:0},{&quot;type&quot;:2,&quot;time&quot;:0,&quot;numberOptions&quot;:3,&quot;x&quot;:0,&quot;y&quot;:0,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;url&quot;:&quot;https://youtu.be/uWBzP9Fuzf4&quot;,&quot;soundVideo&quot;:1,&quot;imageVideo&quot;:1,&quot;iVideo&quot;:503,&quot;fVideo&quot;:552,&quot;eText&quot;:&quot;&quot;,&quot;quextion&quot;:&quot;¿Qué parte de la ópera \&quot;Las Bodas de Fígaro\&quot; de Mozart se muestra en el vídeo&quot;,&quot;options&quot;:[&quot;Obertura&quot;,&quot;Recitativo&quot;,&quot;Aria&quot;,&quot;&quot;],&quot;solution&quot;:1},{&quot;type&quot;:2,&quot;time&quot;:0,&quot;numberOptions&quot;:3,&quot;x&quot;:0,&quot;y&quot;:0,&quot;author&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;url&quot;:&quot;https://youtu.be/uWBzP9Fuzf4&quot;,&quot;soundVideo&quot;:1,&quot;imageVideo&quot;:1,&quot;iVideo&quot;:551,&quot;fVideo&quot;:630,&quot;eText&quot;:&quot;&quot;,&quot;quextion&quot;:&quot;¿Qué parte de la ópera \&quot;Las Bodas de Fígaro\&quot; de Mozart se muestra en el vídeo&quot;,&quot;options&quot;:[&quot;Obertura&quot;,&quot;Recitativo&quot;,&quot;Aria&quot;,&quot;&quot;],&quot;solution&quot;:2}],&quot;isScorm&quot;:0,&quot;textButtonScorm&quot;:&quot;Guardar la puntuación&quot;,&quot;repeatActivity&quot;:false,&quot;title&quot;:&quot;&quot;,&quot;msgs&quot;:{&quot;msgReady&quot;:&quot;¿Preparado?&quot;,&quot;msgStartGame&quot;:&quot;Pulse aquí para empezar&quot;,&quot;msgSubmit&quot;:&quot;Enviar&quot;,&quot;msgEnterCode&quot;:&quot;Introduzca el código de acceso&quot;,&quot;msgErrorCode&quot;:&quot;El código de acceso no es correcto&quot;,&quot;msgGameOver&quot;:&quot;¡Fin de la partida!&quot;,&quot;msgClue&quot;:&quot;¡Genial! La pista es:&quot;,&quot;msgNewGame&quot;:&quot;Pulse aquí para empezar otra partida&quot;,&quot;msgYouHas&quot;:&quot;Tiene %1 aciertos y %2 fallos&quot;,&quot;msgCodeAccess&quot;:&quot;Código de acceso&quot;,&quot;msgPlayAgain&quot;:&quot;Jugar otra vez&quot;,&quot;msgRequiredAccessKey&quot;:&quot;Es necesario el código de acceso&quot;,&quot;msgInformationLooking&quot;:&quot;¡Genial! La información que estaba buscando&quot;,&quot;msgPlayStart&quot;:&quot;Pulse aquí para jugar&quot;,&quot;msgErrors&quot;:&quot;Errores&quot;,&quot;msgHits&quot;:&quot;Aciertos&quot;,&quot;msgScore&quot;:&quot;Puntuación&quot;,&quot;msgMinimize&quot;:&quot;Minimizar&quot;,&quot;msgMaximize&quot;:&quot;Maximizar&quot;,&quot;msgTime&quot;:&quot;Tiempo por pregunta&quot;,&quot;msgLive&quot;:&quot;Vida&quot;,&quot;msgFullScreen&quot;:&quot;Pantalla Completa&quot;,&quot;msgExitFullScreen&quot;:&quot;Salir del modo pantalla completa&quot;,&quot;msgNumQuestions&quot;:&quot;Número de preguntas&quot;,&quot;msgNoImage&quot;:&quot;Pregunta sin imágenes&quot;,&quot;msgCool&quot;:&quot;¡Bien!&quot;,&quot;msgLoseT&quot;:&quot;Ha perdido 330 puntos&quot;,&quot;msgLoseLive&quot;:&quot;Ha perdido una vida&quot;,&quot;msgLostLives&quot;:&quot;¡Ha perdido todas sus vidas!&quot;,&quot;mgsAllQuestions&quot;:&quot;¡Completadas las preguntas!&quot;,&quot;msgSuccesses&quot;:&quot;¡Correcto! | ¡Excelente! | ¡Genial! | ¡Muy bien! | ¡Perfecto!&quot;,&quot;msgFailures&quot;:&quot;¡No era eso! | ¡Incorrecto! | ¡No es correcto! | ¡Lo sentimos! | ¡Error!&quot;,&quot;msgNotNetwork&quot;:&quot;A este juego sólo se puede jugar con conexión a internet.&quot;,&quot;msgEndGameScore&quot;:&quot;Antes de guardar la puntuación comience la partida.&quot;,&quot;msgScoreScorm&quot;:&quot;La puntuación no se puede guardar porque esta página no forma parte  de un paquete SCORM.&quot;,&quot;msgQuestion&quot;:&quot;Pregunta&quot;,&quot;msgAnswer&quot;:&quot;Responder&quot;,&quot;msgOnlySaveScore&quot;:&quot;¡Sólo puede guardar la puntuación una vez!&quot;,&quot;msgOnlySave&quot;:&quot;Sólo puede guardar una vez&quot;,&quot;msgInformation&quot;:&quot;Información&quot;,&quot;msgYouScore&quot;:&quot;Su puntuación&quot;,&quot;msgAuthor&quot;:&quot;Autor&quot;,&quot;msgOnlySaveAuto&quot;:&quot;Su puntuación se guardará después de cada pregunta. Sólo puede jugar una vez.&quot;,&quot;msgSaveAuto&quot;:&quot;Su puntuación se guardará automáticamente después de cada pregunta.&quot;,&quot;msgSeveralScore&quot;:&quot;Puede guardar la puntuación tantas veces como quiera&quot;,&quot;msgYouLastScore&quot;:&quot;La última puntuación guardada es&quot;,&quot;msgActityComply&quot;:&quot;Ya ha realizado esta actividad.&quot;,&quot;msgPlaySeveralTimes&quot;:&quot;Puede realizar esta actividad cuantas veces quiera&quot;,&quot;msgTryAgain&quot;:&quot;Necesita al menos un %s% de respuestas correctas para conseguir la información. Vuelva a intentarlo.&quot;,&quot;msgVideoIntro&quot;:&quot;Vídeo de introducción&quot;,&quot;msgClose&quot;:&quot;Cerrar&quot;,&quot;msgOption&quot;:&quot;Opción&quot;,&quot;msgRickText&quot;:&quot;Texto enriquecido&quot;,&quot;msgUseFulInformation&quot;:&quot;e información que será muy útil&quot;,&quot;msgLoading&quot;:&quot;Cargando. Espere, por favor...&quot;,&quot;mgsPoints&quot;:&quot;puntos&quot;}}&lt;/div&gt;&lt;a href=&quot;https://youtu.be/uWBzP9Fuzf4&quot; class=&quot;js-hidden quext-LinkImages&quot;&gt;0&lt;/a&gt;&lt;a href=&quot;https://youtu.be/uWBzP9Fuzf4&quot; class=&quot;js-hidden quext-LinkImages&quot;&gt;1&lt;/a&gt;&lt;a href=&quot;https://youtu.be/uWBzP9Fuzf4&quot; class=&quot;js-hidden quext-LinkImages&quot;&gt;2&lt;/a&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="9"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <none></none>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="14"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Experimental"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="7"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="10">
+          <dictionary>
+           <string role="key" value="_title"></string>
            <unicode value="Reto: Crucigramas"></unicode>
            <string role="key" value="_attributes"></string>
            <list>
@@ -480,12 +606,12 @@ and select the size of the area to display it in."></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="9">
+            <instance class="exe.engine.field.TextAreaField" reference="11">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="113_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="8"></reference>
+              <reference key="10"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -537,7 +663,7 @@ and select the size of the area to display it in."></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="9"></reference>
+                <reference key="11"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -1134,7 +1260,7 @@ and select the size of the area to display it in."></unicode>
        <instance class="exe.engine.lom.lomsubs.contributeSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <instance class="exe.engine.lom.lomsubs.dateSub" reference="10">
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="12">
           <dictionary>
            <string role="key" value="dateTime"></string>
            <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
@@ -1173,7 +1299,7 @@ and select the size of the area to display it in."></unicode>
          </instance>
          <string role="key" value="entity"></string>
          <list>
-          <instance class="exe.engine.lom.lomsubs.entitySub" reference="11">
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="13">
            <dictionary>
             <string role="key" value="extensiontype_"></string>
             <none></none>
@@ -1188,7 +1314,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="12">
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="14">
             <dictionary>
              <string role="key" value="extensiontype_"></string>
              <none></none>
@@ -1238,10 +1364,10 @@ and select the size of the area to display it in."></unicode>
        <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <reference key="10"></reference>
+         <reference key="12"></reference>
          <string role="key" value="entity"></string>
          <list>
-          <reference key="11"></reference>
+          <reference key="13"></reference>
          </list>
          <string role="key" value="role"></string>
          <instance class="exe.engine.lom.lomsubs.roleSub">
@@ -1249,7 +1375,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <reference key="12"></reference>
+           <reference key="14"></reference>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
@@ -1641,7 +1767,7 @@ and select the size of the area to display it in."></unicode>
        <instance class="exe.engine.lom.lomsubs.contributeSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <instance class="exe.engine.lom.lomsubs.dateSub" reference="13">
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="15">
           <dictionary>
            <string role="key" value="dateTime"></string>
            <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
@@ -1680,7 +1806,7 @@ and select the size of the area to display it in."></unicode>
          </instance>
          <string role="key" value="entity"></string>
          <list>
-          <instance class="exe.engine.lom.lomsubs.entitySub" reference="14">
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="16">
            <dictionary>
             <string role="key" value="extensiontype_"></string>
             <none></none>
@@ -1695,7 +1821,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="15">
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="17">
             <dictionary>
              <string role="key" value="extensiontype_"></string>
              <none></none>
@@ -1745,10 +1871,10 @@ and select the size of the area to display it in."></unicode>
        <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <reference key="13"></reference>
+         <reference key="15"></reference>
          <string role="key" value="entity"></string>
          <list>
-          <reference key="14"></reference>
+          <reference key="16"></reference>
          </list>
          <string role="key" value="role"></string>
          <instance class="exe.engine.lom.lomsubs.roleSub">
@@ -1756,7 +1882,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <reference key="15"></reference>
+           <reference key="17"></reference>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
