@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<presentation availableOffline="1" guid="C4E9892E-E713-45D4-98A8-F9052C4DE880" version="0">
+	<info>
+		<title>01_FUNCION_DIRECTOR_3</title>
+		<description/>
+	</info>
+	<files index="id18" thumbnail="id14" totalSize="2183258">
+		<file id="id0">data/apple-touch-icon.png</file>
+		<file id="id1">data/browsersupport.js</file>
+		<file id="id2">data/favicon.ico</file>
+		<file id="id3">data/fonts/fnt0.woff</file>
+		<file id="id4">data/fonts/fnt1.woff</file>
+		<file id="id5">data/fonts/fnt2.woff</file>
+		<file id="id6">data/fonts/fnt3.woff</file>
+		<file id="id7">data/fonts/fnt4.woff</file>
+		<file id="id8">data/fonts/fnt5.woff</file>
+		<file id="id9">data/html5-unsupported.html</file>
+		<file id="id10">data/html5.png</file>
+		<file id="id11">data/images/img-47b5545ed29a1290621c3ea5ba2eabe606c80750.jpg</file>
+		<file id="id12">data/ismplayer/app_store2x.png</file>
+		<file id="id13">data/ismplayer/play.svg</file>
+		<file id="id14">data/ismplayer/preview.png</file>
+		<file id="id15">data/ismplayer/style.css</file>
+		<file id="id16">data/ismplayer/style_mini.css</file>
+		<file id="id17">data/player.js</file>
+		<file id="id18">index.html</file>
+		<file id="id19">ismplayer.html</file>
+		<file id="id20">preview.png</file>
+	</files>
+</presentation>
+
