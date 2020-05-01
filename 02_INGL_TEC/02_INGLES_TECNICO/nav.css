@@ -2,11 +2,11 @@ html,body{min-height:100%}
 html{background:#FFF url(_intef_bg.png) repeat 0 -2px}
 body{padding:0;
 	text-align:center;
-	background:url(_intef_header.png) no-repeat 50% 0
+	background:url(intef_header.png) no-repeat 50% 0
 }
 @media all and (min-width:1px) {
 	body{
-		background-image:url(_intef_header.png),url(_intef_footer.png);
+		background-image:url(intef_header.png),url(_intef_footer.png);
 		background-repeat:no-repeat,no-repeat;
 		background-position:50% 0,50% bottom
 	}
