@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>0101. Estructura funcional del sintetizador | Instituto Superior Orson Welles </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Julio Benavides" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Instituto Superior Orson Welles</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Síntesis de sonido I</a></li>
+   <li class="current-page-parent"><a href="s01_conceptos_bsicos.html" class="current-page-parent daddy">S01. Conceptos básicos</a>
+   <ul>
+      <li id="active"><a href="0101_estructura_funcional_del_sintetizador.html" class="active no-ch">0101. Estructura funcional del sintetizador</a></li>
+      <li><a href="0102_entrenamiento_del_odo_para_sntesis.html" class="no-ch">0102. Entrenamiento del oído para síntesis</a></li>
+   </ul>
+   </li>
+   <li><a href="s02_puesta_en_marcha_del_sintetizador.html" class="daddy">S02. Puesta en marcha del sintetizador</a>
+   <ul class="other-section">
+      <li><a href="korg_ms20.html" class="no-ch">Korg MS-20</a></li>
+      <li><a href="moog_modular.html" class="no-ch">Moog Modular</a></li>
+      <li><a href="pigments.html" class="no-ch">Pigments</a></li>
+   </ul>
+   </li>
+   <li><a href="s03_el_mdulo_del_oscilador.html" class="no-ch">S03. El módulo del oscilador</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="s01_conceptos_bsicos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="0102_entrenamiento_del_odo_para_sntesis.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">0101. Estructura funcional del sintetizador</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id53">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Síntesis y sintetizadores</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta53_49_2" class="block iDevice_content">
+<div class="exe-text"><p><strong><a id="s01_modulo_voz"></a>Síntesis de sonido</strong>: Técnica para generar señales de audio por medios electrónicos.</p>
+<p><strong>Sintetizador</strong>: Dispositivo que genera señales de audio por medios electrónicos.</p>
+<p><strong>Terminología asociada a sintetizadores</strong>: Módulo, sintetizador, controlador, estación de trabajo <em>(Workstation),</em> muestreador (<em>sampler</em>).</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id54">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">El módulo de voz</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta54_50_2" class="block iDevice_content">
+<div class="exe-text"><p>Todos los sintetizadores funcionan de la misma manera y realizan su tarea, en este orden, a través de unos componentes denominados "<em>módulos</em>":</p>
+<ol>
+<li>Generación de la señal de audio utilizando alguna técnica de síntesis (Oscilador / <strong>Oscillator</strong>)</li>
+<li>Filtración del espectro de la señal de audio (Filtro / <strong>Filter</strong>) y</li>
+<li>Manipulación de la amplitud antes de llevarla a una canal de audio de salida. (Amplificador / <strong>Amplifier</strong>)</li>
+</ol>
+<p>Popularmente estos módulos se suelen representar gráficamente de la siguiente manera:</p>
+<p><img src="03_CADENA_AUDIO.jpg" alt="cadena1" title="cadena1" width="753" height="218" /></p>
+<p style="text-align: justify;">Si bien es cierto que el módulo del oscilador es el verdadero sintetizador y por ahí ya sale una señal de audio perfectamente audible, en los sintetizadores suelen haber controles que manipulan la frecuencia (la <em>altura</em>, la <em>nota</em>). Encima de cada módulo podrás ver la propiedad de sonido que, en los sintetizadores, podrás controlar ya sea manualmente o de forma automática.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id55">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Los dispositivos de control</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta55_49_2" class="block iDevice_content">
+<div class="exe-text"><p>Las propiedades de sonido (frecuencia, espectro, amplitud) pueden ser controladas, en un sintetizador...</p>
+<ul>
+<li>De manera manual: a través de perillas, botones, teclas, pedales, controladores ópticos, etc.</li>
+<li>De manera automática: a través de dispositivos que hay que programar de alguna u otra manera. Los mínimos que encontrarás en cualquier sintetizador son los denominados:
+<ul>
+<li>Generador de envolvente (<strong>EG</strong>): Son dispositivos automáticos que ejercen un <strong>control singular</strong> de algún parámetro o propiedad de sonido.</li>
+<li>Oscilador de baja frecuencia <strong>(LFO):</strong> Son dispositivos automáticos que ejercen un <strong>control repetitivo</strong>, recursivo, sobre algún parámetro o propiedad de sonido.</li>
+</ul>
+</li>
+</ul>
+<p>Los generadores de envolvente suelen representarse gráficamente con un rectángulo y dentro de él sus parámetros típicos.</p>
+<p>Los osciladores de baja frecuencia se representan con un círculo como si fuera un oscilador y, es que, eso es lo que son. Excepto que sus velocidades van de casi 0 a 20 Hz.</p>
+<p>Así, lo que debemos esperar en un sintetizador mínimo es un par de controles para cada módulo:</p>
+<p> <img src="06_MODULO_DE_VOZ_2.jpg" alt="modulo_voz" title="modulo_vez" width="875" height="714" /></p>
+<p>En la imagen hemos anotado:</p>
+<p>En <span style="color: #ff0000;"><strong>color rojo</strong></span> las <span style="color: #ff0000;">propiedades del sonido</span> y su equivalente en música.</p>
+<p>En<span style="color: #000080;"><strong> color azu</strong>l</span> los nombres de los <span style="color: #000080;">parámetros en el sintetizador <span style="color: #000000;">para controles singulares.</span></span></p>
+<p>En <span style="color: #003300;"><strong>color verde</strong></span> los nombres de los <span style="color: #000080;"><span style="color: #003300;">parámetros en el sintetizador</span> <span style="color: #000000;">para controles cíclicos.</span></span> </p>
+<p>En <strong>color negro</strong> los nombres coloquiales del efecto resultante al manipular el control.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="propietary">
+<p><span>Licencia: </span> licencia propietaria</p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="s01_conceptos_bsicos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="0102_entrenamiento_del_odo_para_sntesis.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<footer id="siteFooter"><script type='text/javascript'>
+$(window).load(function(){
+    $('p.toggle-idevice a').each(function(i){
+        if (i>0) $(this).click();;
+    });
+});
+</script></footer></div>
+<script type="text/javascript" src="my_js.js"></script></body></html>
