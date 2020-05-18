@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_highlighter.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>0704. Implementación de un panel conmutable | Instituto Superior Orson Welles </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Julio Benavides" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_highlighter.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-12"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Instituto Superior Orson Welles</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Síntesis de Sonidos II</a></li>
+   <li><a href="s00_aprendiendo_a_trabajar_remotamente.html" class="daddy">S00. Aprendiendo a trabajar remotamente</a>
+   <ul class="other-section">
+      <li><a href="0101_repasa_lo_fundamental.html" class="no-ch">0101. Repasa lo fundamental</a></li>
+      <li><a href="0102_observa_y_trabaja.html" class="no-ch">0102. Observa y Trabaja</a></li>
+      <li><a href="0103_prepara_tus_producciones_para_el_envo.html" class="no-ch">0103. Prepara tus producciones para el envío</a></li>
+      <li><a href="0104_retos_y_evaluacin_para_la_siguiente_sesin.html" class="no-ch">0104. Retos y evaluación para la siguiente sesión</a></li>
+   </ul>
+   </li>
+   <li><a href="s01_instalacin_de_herramientas.html" class="no-ch">S01. Instalación de Herramientas</a></li>
+   <li><a href="s02_csound_el_lenguaje.html" class="no-ch">S02. Csound, el lenguaje</a></li>
+   <li><a href="s03_csound_patches_bsicos.html" class="no-ch">S03. Csound: Patches básicos.</a></li>
+   <li><a href="s04_cabbage_el_interfaz_grfico_para_csound.html" class="no-ch">S04. Cabbage: El interfaz gráfico para Csound</a></li>
+   <li><a href="s05_cabbage_aplicacin_de_controles.html" class="no-ch">S05. Cabbage: Aplicación de controles</a></li>
+   <li><a href="s06_cabbage_paneles_importacin_exportacin.html" class="no-ch">S06. Cabbage: Paneles, importación, exportación</a></li>
+   <li class="current-page-parent"><a href="s07_cabbage_paneles_desplegables_y_conmutables.html" class="current-page-parent daddy">S07. Cabbage: Paneles desplegables y conmutables</a>
+   <ul>
+      <li><a href="0701_preparacin_del_proyecto.html" class="no-ch">0701. Preparación del proyecto</a></li>
+      <li><a href="0702_la_funcin_visible1_popup0.html" class="no-ch">0702. La función visible(1) popup(0)</a></li>
+      <li><a href="0703_la_comunicacin_entre_csound_y_cabbage.html" class="no-ch">0703. La comunicación entre Csound y Cabbage</a></li>
+      <li id="active"><a href="0704_implementacin_de_un_panel_conmutable.html" class="active no-ch">0704. Implementación de un panel conmutable</a></li>
+      <li><a href="0705_variantes_un_botn_que_controla_dos_paneles.html" class="no-ch">0705. Variantes: Un botón que controla dos paneles</a></li>
+   </ul>
+   </li>
+   <li><a href="s08_csound_tablas_con_formas_de_onda.html" class="daddy">S08. Csound: Tablas con formas de onda</a>
+   <ul class="other-section">
+      <li><a href="0801_gen10_llenar_una_tabla_por_sntesis_aditiva_12.html" class="daddy">0801. GEN10: Llenar una tabla por síntesis aditiva 1/2</a>
+      <ul class="other-section">
+         <li><a href="080101_ejercicios_tericos_gen10.html" class="no-ch">080101. Ejercicios teóricos GEN10</a></li>
+      </ul>
+      </li>
+      <li><a href="0802_implementacin_de_tablas_en_csound.html" class="no-ch">0802. Implementación de tablas en Csound</a></li>
+      <li><a href="0803_gen_9_llenar_tabla_por_sntesis_aditiva_22.html" class="no-ch">0803. GEN 9: Llenar tabla por síntesis aditiva 2/2</a></li>
+      <li><a href="0804_gen_7_llenar_tabla_dibujando_lneas.html" class="no-ch">0804. GEN 7: Llenar tabla "dibujando" líneas</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="0703_la_comunicacin_entre_csound_y_cabbage.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="0705_variantes_un_botn_que_controla_dos_paneles.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">0704. Implementación de un panel conmutable</h1></header>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id16">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">1. Implementación del panel conmutable</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta16_50_2" class="block iDevice_content">
+<p><span style="font-size: 14pt;">Vamos a tomar nuestro proyecto incial visto en <a href="0701_preparacin_del_proyecto.html"></a><a href="0701_preparacin_del_proyecto.html" target="_blank" rel="noopener">0701. Preparación del proyecto</a></span><span style="font-size: 14pt;"> o en su defecto puedes utiizar éste:</span></p>
+<div class="highlighted-code language-markup line-numbers">
+<div>
+<pre><code>&lt;Cabbage&gt;
+form caption("Julio")  size(400, 400), colour(8, 32, 8), pluginid("def1")
+keyboard bounds(10, 300, 381, 95)
+groupbox bounds(184, 16, 200, 200) identchannel("EG")  text("EG - Tu nombre") colour(32,32,32) visible(1){
+vslider bounds(10, 36, 50, 151) range(0.001, 10, 0.001, 1, 0.001) channel("A") value(0.001) text("A") valuetextbox(1)
+vslider bounds(50, 36, 50, 151) range(0.001, 10, 0.001, 1, 0.001) channel("D") value(0.001) text("D") valuetextbox(1)
+vslider bounds(90, 36, 50, 151) range(0, 1, 0.8, 1, 0.01) channel("S") value(0.8) text("S") valuetextbox(1) 
+vslider bounds(130, 36, 50, 151) range(0.001, 10, 0.001, 1, 0.001) channel("R") value(0.001) text("R") valuetextbox(1)
+}
+&lt;/Cabbage&gt;
+&lt;CsoundSynthesizer&gt;
+&lt;CsOptions&gt;
+-n -d -+rtmidi=NULL -M0 -m0d --midi-key-cps=4 --midi-velocity-amp=5
+&lt;/CsOptions&gt;
+&lt;CsInstruments&gt;
+; Initialize the global variables. 
+ksmps = 32
+nchnls = 2
+0dbfs = 1
+;Julio Benavides PC203
+;instrument will be triggered by keyboard widget
+        instr 203
+
+
+
+        endin
+
+&lt;/CsInstruments&gt;
+&lt;CsScore&gt;
+;causes Csound to run for about 7000 years...
+f0 z
+&lt;/CsScore&gt;
+&lt;/CsoundSynthesizer&gt;</code></pre>
+</div>
+</div>
+<p><span style="font-size: 14pt;"></span></p>
+<p><span style="font-size: 14pt;">Importante identificar el identchannel del panel que queremos controlar:</span></p>
+<p><span style="font-size: 14pt;"><img src="01.jpg" alt="identifica identchannel" width="1280" height="760" /></span></p>
+<p><span style="font-size: 14pt;">Ahora añadiremos un botón. Importante será saber qué channel le asignaremos.</span></p>
+<p><span style="font-size: 14pt;"><img src="02.jpg" alt="boton" width="1280" height="760" /></span></p>
+<p><span style="font-size: 14pt;">Recuerda que para que Csound envie datos a Cabbage el instrumento debe estar funcionando, para hacerlo de manera automática vamos a decirle que:</span></p>
+<p><span style="font-size: 14pt;"><strong>El instrumento 203 en el segundo 0 empieza a correr <em>per secula seculorum</em></strong>...</span></p>
+<p><img src="03.jpg" alt="per secula" width="1280" height="760" /></p>
+<p></p>
+<p><span style="font-size: 14pt;"></span></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id17">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">2. Codificación del mecanismo del botón</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta17_51_2" class="block iDevice_content">
+<p><span style="font-size: 14pt;">Pensemos un poco en el mecanismo de nuestro botón y panel.</span></p>
+<p><span style="font-size: 14pt;">1. El usuario presiona el botón, </span><span style="font-size: 14pt;">Cabbage envía </span></p>
+<p><span style="font-size: 14pt;">      0: para off, </span></p>
+<p><span style="font-size: 14pt;">      1: para on</span></p>
+<p><span style="font-size: 14pt;">     al channel del botón.</span></p>
+<p><span style="font-size: 14pt;">2. Csound se entera de ese dato a través de la función chnget</span></p>
+<p><span style="font-size: 14pt;">3. Csound guarda el valor del botón en una variable</span></p>
+<p><span style="font-size: 14pt;">4. Csound evalúa el valor del botón:</span></p>
+<p><span style="font-size: 14pt;">     Si el botón vale 0 entonces Csound envía a Cabbage la orden "Haz invisible el objeto EG' "</span></p>
+<p><span style="font-size: 14pt;">      caso contrario (o sea si el botón vale 1)</span></p>
+<p><span style="font-size: 14pt;">           Csound envía a Cabbage la orden "Haz visible el objeto 'EG' "</span></p>
+<p><span style="font-size: 14pt;">Por tu experiencia en este curso los pasos 1, 2 y 3 tú mismo lo sabrás hacer, se tendría que ver algo así:</span></p>
+<p><span style="font-size: 14pt;"><img src="04.jpg" alt="pasos un dos tres" width="1280" height="760" /></span></p>
+<p><span style="font-size: 14pt;">En el paso 4 Csound debe enviarle una orden a Cabbage, esa orden está escrita coloquialmente líneas arriba.</span></p>
+<p><span style="font-size: 14pt;">Tendremos que usar el lenguaje Csound para traducir lo que queremos en algo que Csound entienda, creo que una tabla de dos columnas nos ayudará a entender el código:</span></p>
+<table border="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 58.0866%; text-align: center;"><span style="color: #003366;"><strong><span style="font-size: 14pt;">Lenguaje coloquial (pseudocódigo)</span></strong></span></td>
+<td style="width: 41.9134%; text-align: center;"><span style="color: #003366;"><strong><span style="font-size: 14pt;">Lenguaje Csound</span></strong></span></td>
+</tr>
+<tr>
+<td style="width: 58.0866%;"><span style="font-size: 14pt;"><strong>Si   </strong>la variable k1 tiene valor 0   <strong>entonces</strong></span></td>
+<td style="width: 41.9134%;"><span style="font-size: 14pt;">     <strong>if </strong>   k1 == 0    <strong>then</strong></span></td>
+</tr>
+<tr>
+<td style="width: 58.0866%;"><span style="font-size: 14pt;">      Ordenar a Cabbage que el objeto sea invisible</span></td>
+<td style="width: 41.9134%;"><span style="font-size: 14pt;">            chnset "visible(0)" , "EG"</span></td>
+</tr>
+<tr>
+<td style="width: 58.0866%;"><strong><span style="font-size: 14pt;">Caso contrario</span></strong></td>
+<td style="width: 41.9134%;"><span style="font-size: 14pt;">     <strong>else</strong></span></td>
+</tr>
+<tr>
+<td style="width: 58.0866%;"><span style="font-size: 14pt;">      Ordenar a Cabbage que el objeto sea visible</span></td>
+<td style="width: 41.9134%;"><span style="font-size: 14pt;">            chnset "visible(1)" , "EG"</span></td>
+</tr>
+<tr>
+<td style="width: 58.0866%;"><strong><span style="font-size: 14pt;">Fin</span></strong></td>
+<td style="width: 41.9134%;"><strong><span style="font-size: 14pt;">     endif</span></strong></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14pt;">Escribamos el código Csound dentro de nuestro instrumento y veamos el funcionamiento:</span></p>
+<p><span style="font-size: 14pt;"><img src="0704_IMPLEMENTACION_panel_conmutable.gif" alt="panel conmutable" width="802" height="480" /></span></p>
+<p><span style="font-size: 14pt;">¡Está estupendo!.</span></p>
+<p><span style="font-size: 14pt;">Ahora podremos dar rienda suelta a nuestra imaginación haciendo variantes al paso 4.</span></p>
+<p><span style="font-size: 14pt;">No pierdas el código que has completado hasta aquí, partiremos de alli para jugar un poco con el mecanismo del interfaz...</span></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="0703_la_comunicacin_entre_csound_y_cabbage.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="0705_variantes_un_botn_que_controla_dos_paneles.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

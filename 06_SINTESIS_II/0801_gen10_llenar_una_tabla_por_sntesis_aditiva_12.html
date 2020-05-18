@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>0801. GEN10: Llenar una tabla por síntesis aditiva 1/2 | Instituto Superior Orson Welles </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Julio Benavides" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-15"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Instituto Superior Orson Welles</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Síntesis de Sonidos II</a></li>
+   <li><a href="s00_aprendiendo_a_trabajar_remotamente.html" class="daddy">S00. Aprendiendo a trabajar remotamente</a>
+   <ul class="other-section">
+      <li><a href="0101_repasa_lo_fundamental.html" class="no-ch">0101. Repasa lo fundamental</a></li>
+      <li><a href="0102_observa_y_trabaja.html" class="no-ch">0102. Observa y Trabaja</a></li>
+      <li><a href="0103_prepara_tus_producciones_para_el_envo.html" class="no-ch">0103. Prepara tus producciones para el envío</a></li>
+      <li><a href="0104_retos_y_evaluacin_para_la_siguiente_sesin.html" class="no-ch">0104. Retos y evaluación para la siguiente sesión</a></li>
+   </ul>
+   </li>
+   <li><a href="s01_instalacin_de_herramientas.html" class="no-ch">S01. Instalación de Herramientas</a></li>
+   <li><a href="s02_csound_el_lenguaje.html" class="no-ch">S02. Csound, el lenguaje</a></li>
+   <li><a href="s03_csound_patches_bsicos.html" class="no-ch">S03. Csound: Patches básicos.</a></li>
+   <li><a href="s04_cabbage_el_interfaz_grfico_para_csound.html" class="no-ch">S04. Cabbage: El interfaz gráfico para Csound</a></li>
+   <li><a href="s05_cabbage_aplicacin_de_controles.html" class="no-ch">S05. Cabbage: Aplicación de controles</a></li>
+   <li><a href="s06_cabbage_paneles_importacin_exportacin.html" class="no-ch">S06. Cabbage: Paneles, importación, exportación</a></li>
+   <li><a href="s07_cabbage_paneles_desplegables_y_conmutables.html" class="daddy">S07. Cabbage: Paneles desplegables y conmutables</a>
+   <ul class="other-section">
+      <li><a href="0701_preparacin_del_proyecto.html" class="no-ch">0701. Preparación del proyecto</a></li>
+      <li><a href="0702_la_funcin_visible1_popup0.html" class="no-ch">0702. La función visible(1) popup(0)</a></li>
+      <li><a href="0703_la_comunicacin_entre_csound_y_cabbage.html" class="no-ch">0703. La comunicación entre Csound y Cabbage</a></li>
+      <li><a href="0704_implementacin_de_un_panel_conmutable.html" class="no-ch">0704. Implementación de un panel conmutable</a></li>
+      <li><a href="0705_variantes_un_botn_que_controla_dos_paneles.html" class="no-ch">0705. Variantes: Un botón que controla dos paneles</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="s08_csound_tablas_con_formas_de_onda.html" class="current-page-parent daddy">S08. Csound: Tablas con formas de onda</a>
+   <ul>
+      <li id="active"><a href="0801_gen10_llenar_una_tabla_por_sntesis_aditiva_12.html" class="active daddy">0801. GEN10: Llenar una tabla por síntesis aditiva 1/2</a>
+      <ul>
+         <li><a href="080101_ejercicios_tericos_gen10.html" class="no-ch">080101. Ejercicios teóricos GEN10</a></li>
+      </ul>
+      </li>
+      <li><a href="0802_implementacin_de_tablas_en_csound.html" class="no-ch">0802. Implementación de tablas en Csound</a></li>
+      <li><a href="0803_gen_9_llenar_tabla_por_sntesis_aditiva_22.html" class="no-ch">0803. GEN 9: Llenar tabla por síntesis aditiva 2/2</a></li>
+      <li><a href="0804_gen_7_llenar_tabla_dibujando_lneas.html" class="no-ch">0804. GEN 7: Llenar tabla "dibujando" líneas</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="s08_csound_tablas_con_formas_de_onda.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="080101_ejercicios_tericos_gen10.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">0801. GEN10: Llenar una tabla por síntesis aditiva 1/2</h1></header>
+<article class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id26">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Conocimiento previo</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta26_47_2" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 14pt;">En nuestro curso anterior pusimos en práctica las técnicas de síntesis aditiva para generar señales de audio.  En resumidas cuentas ésta técnica consiste en mezclar señales de audio compuestas de formas de onda sinusoidales con amplitudes y frecuencias distintas para obtener una señal compleja. El ejemplo del Dr. <a href="http://www.cerlsoundgroup.org/Kelly/">Kelly Fitz</a> de cómo reconstruye el sonido de una trompeta es no solo hermoso sino indiscutible:</span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><audio controls="controls" src="http://www.cerlsoundgroup.org/Kelly/sounds/trumpetbuildup.wav" class="mediaelement"><a href="http://www.cerlsoundgroup.org/Kelly/sounds/trumpetbuildup.wav">audio/wav</a></audio> <span style="font-size: 14pt;"> <a href="http://www.cerlsoundgroup.org/Kelly/soundmorphing.html" target="_blank" rel="noopener">Visita la fuente original</a></span><br /></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><span style="font-size: 14pt;">Visto en un espectrograma apreciaríamos esto:</span></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><span style="font-size: 14pt;"><img src="kelly_trompeta_spectro.jpg" alt="trompeta kelly espectrograma" width="1280" height="457" /></span></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><span style="font-size: 14pt;">Así, reconstruir, por ejemplo, la forma de onda sawtooth necesitaríamos "mezclar" (sumar) ondas sinusoidales cuyas frecuencias sean múltiplos enteros ("armónicos") y las amplitudes siguen una fórmula que aritméticamente la podremos simplificar como "la amplitud del primero entre el número de armónico".</span></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><span style="font-size: 14pt;"><img src="onda_rampa_aditiva.jpg" alt="saw aditiva tabla" width="734" height="251" /></span></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><span style="font-size: 14pt;">Esto hicimos en el Adobe Audition para generar la forma de onda sawtooth con solo 5 parciales:</span></span></p>
+<p style="text-align: justify;"><span style="font-size: 14pt;"><span style="font-size: 14pt;"><img src="0801_genera_sw.gif" alt="genera saw au" width="808" height="480" /></span></span></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper FreeTextIdevice" id="id27">
+<div class="iDevice emphasis0">
+<div id="ta27_85" class="block iDevice_content">
+<p><span style="font-size: 14pt;">El GEN10 es muy similar al interfaz del Adobe Audtion excepto que no podemos ingresar libremente los parciales que queremos, debemos solamente poner los valores de las amplitudes de los armónicos 1, 2, 3, 4, 5, etc.  Por ejemplo para que el GEN 10 llene una tabla con la forma de onda sawtooth emplenado 5 armónicos deberíamos indicarle las amplitudes de cada una de ellas:</span></p>
+<table border="1" style="width: 100%; height: 54px;">
+<tbody>
+<tr style="height: 27px;">
+<td style="width: 139px; height: 27px;"><span style="font-size: 14pt;"> </span></td>
+<td style="width: 138px; height: 27px;"><span style="font-size: 14pt;">armónico 1</span></td>
+<td style="width: 138px; height: 27px;"><span style="font-size: 14pt;">armónico 2</span></td>
+<td style="width: 138px; height: 27px;"><span style="font-size: 14pt;">armónico 3</span></td>
+<td style="width: 138px; height: 27px;"><span style="font-size: 14pt;">armónico 4</span></td>
+<td style="width: 138px; height: 27px;"><span style="font-size: 14pt;">armónico 5</span></td>
+</tr>
+<tr style="height: 27px;">
+<td style="width: 139px; height: 27px;"><span style="font-size: 14pt;">GEN10:</span></td>
+<td style="width: 138px; height: 27px; text-align: center;"><strong><span style="font-size: 14pt;">1</span></strong></td>
+<td style="width: 138px; height: 27px; text-align: center;"><strong><span style="font-size: 14pt;">.5</span></strong></td>
+<td style="width: 138px; height: 27px; text-align: center;"><strong><span style="font-size: 14pt;">.33</span></strong></td>
+<td style="width: 138px; height: 27px; text-align: center;"><strong><span style="font-size: 14pt;">.25</span></strong></td>
+<td style="width: 138px; height: 27px; text-align: center;"><strong><span style="font-size: 14pt;">.2</span></strong></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14pt;">¿Cómo ingresamos esto en Csound?</span></p>
+<p><span style="font-size: 14pt;">Las tablas se escriben tradicionalmente en el <em>score</em> y la sintaxis es cómo lo explica el manual:</span></p>
+<p><span style="font-size: 14pt;"><img src="gen_10_sintaxis.jpg" alt="GEN10 SINTAXIS" width="1206" height="334" /></span></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id28">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Traduce el siguiente enunciado:</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta28_49_2" class="block iDevice_content">
+<p><span style="font-size: 14pt;">Por ejemplo, traduzcamos a Csound el siguiente enunciado:</span></p>
+<p><span style="font-size: 14pt;"><img src="f1.jpg" alt="tabla f2" width="1121" height="232" /></span></p>
+<p><span style="font-size: 14pt;">Antes de implementar el uso de tablas en un sintetizador hagamos algunas transcripciones de nuestras formas de ondas vistas en el curso anterior con el GEN 10...</span></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="s08_csound_tablas_con_formas_de_onda.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="080101_ejercicios_tericos_gen10.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>
