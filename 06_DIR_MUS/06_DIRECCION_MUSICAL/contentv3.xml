@@ -85,7 +85,7 @@
   <string role="key" value="_name"></string>
   <unicode value="06_DIRECCION_MUSICAL"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="36"></int>
+  <int value="37"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="7"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -1554,7 +1554,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
               <int value="2"></int>
               <string role="key" value="exportType"></string>
-              <string value="website"></string>
+              <string value="singlepage"></string>
               <string role="key" value="last_full_node_path"></string>
               <string value="exe-node:Elementos%20de%20Direcci%C3%B3n%20Musical:S01.%20El%20director%20musical"></string>
               <string role="key" value="parent"></string>
@@ -2536,7 +2536,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
               <int value="2"></int>
               <string role="key" value="exportType"></string>
-              <string value="website"></string>
+              <string value="singlepage"></string>
               <string role="key" value="last_full_node_path"></string>
               <string value="exe-node:Elementos%20de%20Direcci%C3%B3n%20Musical:S02.%20Organizaci%C3%B3n%20del%20elenco%201"></string>
               <string role="key" value="parent"></string>
@@ -2591,7 +2591,7 @@ and select the size of the area to display it in."></unicode>
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
      <int value="2"></int>
      <string role="key" value="exportType"></string>
-     <string value="website"></string>
+     <string value="singlepage"></string>
      <string role="key" value="last_full_node_path"></string>
      <string value="exe-node:Elementos%20de%20Direcci%C3%B3n%20Musical"></string>
      <string role="key" value="parent"></string>
@@ -2669,7 +2669,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="39"></reference>
              </dictionary>
             </instance>
            </list>
@@ -2759,7 +2759,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="39"></reference>
              </dictionary>
             </instance>
            </list>
@@ -2849,7 +2849,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="39"></reference>
              </dictionary>
             </instance>
            </list>
@@ -2939,7 +2939,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="39"></reference>
              </dictionary>
             </instance>
            </list>
@@ -3029,7 +3029,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="39"></reference>
              </dictionary>
             </instance>
            </list>
@@ -3037,6 +3037,95 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <unicode value="activity"></unicode>
            <string role="key" value="id"></string>
            <unicode value="34"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="parentNode"></string>
+           <reference key="39"></reference>
+           <string role="key" value="systemResources"></string>
+           <list>
+            <string value="common.js"></string>
+           </list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.genericidevice.GenericIdevice" reference="48">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Organización administrativa de un elenco - Simulacro"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="An activity can be defined as a task or set of tasks a learner must
+complete. Provide a clear statement of the task and consider any conditions
+that may help or hinder the learner in the performance of the task."></unicode>
+           <string role="key" value="_tip"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="class_"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.genericidevice.GenericIdevice.persistenceVersion"></string>
+           <int value="11"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="49">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="109_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="48"></reference>
+              <string role="key" value="_instruc"></string>
+              <unicode value="Describe the tasks the learners should complete."></unicode>
+              <string role="key" value="_name"></string>
+              <unicode value="Activity"></unicode>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;Simulacro:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;100%&quot; height=&quot;480&quot; src=&quot; https://cidow.github.io/Contenidos/06_DIR_MUS/0301_ADVA_L5_SIMULACRO/&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="49"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <none></none>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="36"></unicode>
            <string role="key" value="lastIdevice"></string>
            <bool value="0"></bool>
            <string role="key" value="nextFieldId"></string>
@@ -3067,7 +3156,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
         <int value="2"></int>
         <string role="key" value="exportType"></string>
-        <string value="website"></string>
+        <string value="singlepage"></string>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:Elementos%20de%20Direcci%C3%B3n%20Musical:S03.%20Organizaci%C3%B3n%20administrativa%20de%20un%20elenco%20musical"></string>
         <string role="key" value="parent"></string>
@@ -3078,7 +3167,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="48">
+      <instance class="exe.engine.node.Node" reference="50">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="S04. Evaluación"></unicode>
@@ -3093,7 +3182,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
         <int value="2"></int>
         <string role="key" value="exportType"></string>
-        <string value="website"></string>
+        <string value="singlepage"></string>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:Elementos%20de%20Direcci%C3%B3n%20Musical:S04.%20Evaluaci%C3%B3n"></string>
         <string role="key" value="parent"></string>
@@ -3114,7 +3203,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
    <unicode role="key" value="3"></unicode>
    <reference key="39"></reference>
    <unicode role="key" value="4"></unicode>
-   <reference key="48"></reference>
+   <reference key="50"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -3473,7 +3562,7 @@ $(window).load(function(){
        <instance class="exe.engine.lom.lomsubs.contributeSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <instance class="exe.engine.lom.lomsubs.dateSub" reference="49">
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="51">
           <dictionary>
            <string role="key" value="dateTime"></string>
            <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
@@ -3512,7 +3601,7 @@ $(window).load(function(){
          </instance>
          <string role="key" value="entity"></string>
          <list>
-          <instance class="exe.engine.lom.lomsubs.entitySub" reference="50">
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="52">
            <dictionary>
             <string role="key" value="extensiontype_"></string>
             <none></none>
@@ -3527,7 +3616,7 @@ $(window).load(function(){
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="51">
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="53">
             <dictionary>
              <string role="key" value="extensiontype_"></string>
              <none></none>
@@ -3577,10 +3666,10 @@ $(window).load(function(){
        <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <reference key="49"></reference>
+         <reference key="51"></reference>
          <string role="key" value="entity"></string>
          <list>
-          <reference key="50"></reference>
+          <reference key="52"></reference>
          </list>
          <string role="key" value="role"></string>
          <instance class="exe.engine.lom.lomsubs.roleSub">
@@ -3588,7 +3677,7 @@ $(window).load(function(){
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <reference key="51"></reference>
+           <reference key="53"></reference>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
@@ -3980,7 +4069,7 @@ $(window).load(function(){
        <instance class="exe.engine.lom.lomsubs.contributeSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <instance class="exe.engine.lom.lomsubs.dateSub" reference="52">
+         <instance class="exe.engine.lom.lomsubs.dateSub" reference="54">
           <dictionary>
            <string role="key" value="dateTime"></string>
            <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
@@ -4019,7 +4108,7 @@ $(window).load(function(){
          </instance>
          <string role="key" value="entity"></string>
          <list>
-          <instance class="exe.engine.lom.lomsubs.entitySub" reference="53">
+          <instance class="exe.engine.lom.lomsubs.entitySub" reference="55">
            <dictionary>
             <string role="key" value="extensiontype_"></string>
             <none></none>
@@ -4034,7 +4123,7 @@ $(window).load(function(){
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="54">
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub" reference="56">
             <dictionary>
              <string role="key" value="extensiontype_"></string>
              <none></none>
@@ -4084,10 +4173,10 @@ $(window).load(function(){
        <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
         <dictionary>
          <string role="key" value="date"></string>
-         <reference key="52"></reference>
+         <reference key="54"></reference>
          <string role="key" value="entity"></string>
          <list>
-          <reference key="53"></reference>
+          <reference key="55"></reference>
          </list>
          <string role="key" value="role"></string>
          <instance class="exe.engine.lom.lomsubs.roleSub">
@@ -4095,7 +4184,7 @@ $(window).load(function(){
            <string role="key" value="extensiontype_"></string>
            <none></none>
            <string role="key" value="source"></string>
-           <reference key="54"></reference>
+           <reference key="56"></reference>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
