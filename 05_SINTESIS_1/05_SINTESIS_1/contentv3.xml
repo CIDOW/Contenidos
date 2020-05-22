@@ -65,7 +65,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="1"></bool>
+  <bool value="0"></bool>
   <string role="key" value="_isTemplate"></string>
   <bool value="0"></bool>
   <string role="key" value="_lang"></string>
@@ -81,9 +81,9 @@
   <string role="key" value="_name"></string>
   <unicode value="05_SINTESIS_1"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="41"></int>
+  <int value="44"></int>
   <string role="key" value="_nextNodeId"></string>
-  <int value="18"></int>
+  <int value="20"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
@@ -666,7 +666,7 @@
                                   <instance class="exe.engine.field.TextField">
                                    <dictionary>
                                     <string role="key" value="_id"></string>
-                                    <int value="323"></int>
+                                    <int value="331"></int>
                                     <string role="key" value="_idevice"></string>
                                     <none></none>
                                     <string role="key" value="_instruc"></string>
@@ -680,7 +680,7 @@
                                    </dictionary>
                                   </instance>
                                   <string role="key" value="_id"></string>
-                                  <unicode value="128_123_2.8"></unicode>
+                                  <unicode value="141_123_2.10"></unicode>
                                   <string role="key" value="_imageResource"></string>
                                   <instance class="exe.engine.resource.Resource" reference="14">
                                    <dictionary>
@@ -691,7 +691,7 @@
                                     <string role="key" value="_storageName"></string>
                                     <string value="00_google_drive.jpg"></string>
                                     <string role="key" value="_userName"></string>
-                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpwi3avd\\00_google_drive.jpg"></string>
+                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\00_google_drive.jpg"></string>
                                     <string role="key" value="checksum"></string>
                                     <string value="c0f9a2eba8ba3a8c934f1179afb5ce8b"></string>
                                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -718,7 +718,7 @@
                                   <instance class="exe.engine.field.TextField">
                                    <dictionary>
                                     <string role="key" value="_id"></string>
-                                    <int value="325"></int>
+                                    <int value="333"></int>
                                     <string role="key" value="_idevice"></string>
                                     <none></none>
                                     <string role="key" value="_instruc"></string>
@@ -732,7 +732,7 @@
                                    </dictionary>
                                   </instance>
                                   <string role="key" value="_id"></string>
-                                  <unicode value="128_123_2.9"></unicode>
+                                  <unicode value="141_123_2.11"></unicode>
                                   <string role="key" value="_imageResource"></string>
                                   <instance class="exe.engine.resource.Resource" reference="15">
                                    <dictionary>
@@ -743,7 +743,7 @@
                                     <string role="key" value="_storageName"></string>
                                     <string value="01_google_drive_UN_Procedimiento.jpg"></string>
                                     <string role="key" value="_userName"></string>
-                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpwi3avd\\01_google_drive_UN_Procedimiento.jpg"></string>
+                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\01_google_drive_UN_Procedimiento.jpg"></string>
                                     <string role="key" value="checksum"></string>
                                     <string value="ffa233854e696366047647f63f470a57"></string>
                                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -772,7 +772,7 @@
                              <string role="key" value="intlinks_to_anchors"></string>
                              <dictionary></dictionary>
                              <string role="key" value="nextImageId"></string>
-                             <int value="10"></int>
+                             <int value="12"></int>
                              <string role="key" value="parentNode"></string>
                              <reference key="10"></reference>
                             </dictionary>
@@ -1277,7 +1277,7 @@ and select the size of the area to display it in."></unicode>
                                   <instance class="exe.engine.field.TextField">
                                    <dictionary>
                                     <string role="key" value="_id"></string>
-                                    <int value="329"></int>
+                                    <int value="339"></int>
                                     <string role="key" value="_idevice"></string>
                                     <none></none>
                                     <string role="key" value="_instruc"></string>
@@ -1291,7 +1291,7 @@ and select the size of the area to display it in."></unicode>
                                    </dictionary>
                                   </instance>
                                   <string role="key" value="_id"></string>
-                                  <unicode value="121_122_2.4"></unicode>
+                                  <unicode value="135_122_2.5"></unicode>
                                   <string role="key" value="_imageResource"></string>
                                   <instance class="exe.engine.resource.Resource" reference="24">
                                    <dictionary>
@@ -1302,7 +1302,7 @@ and select the size of the area to display it in."></unicode>
                                     <string role="key" value="_storageName"></string>
                                     <string value="DIVIDIR_LA_PANTALLA.gif"></string>
                                     <string role="key" value="_userName"></string>
-                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpwi3avd\\DIVIDIR_LA_PANTALLA.gif"></string>
+                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\DIVIDIR_LA_PANTALLA.gif"></string>
                                     <string role="key" value="checksum"></string>
                                     <string value="e1668f34a368e76ae9e576fa7accd657"></string>
                                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1331,7 +1331,7 @@ and select the size of the area to display it in."></unicode>
                              <string role="key" value="intlinks_to_anchors"></string>
                              <dictionary></dictionary>
                              <string role="key" value="nextImageId"></string>
-                             <int value="5"></int>
+                             <int value="6"></int>
                              <string role="key" value="parentNode"></string>
                              <reference key="23"></reference>
                             </dictionary>
@@ -1495,7 +1495,7 @@ and select the size of the area to display it in."></unicode>
                                   <instance class="exe.engine.field.TextField">
                                    <dictionary>
                                     <string role="key" value="_id"></string>
-                                    <int value="324"></int>
+                                    <int value="332"></int>
                                     <string role="key" value="_idevice"></string>
                                     <none></none>
                                     <string role="key" value="_instruc"></string>
@@ -1509,7 +1509,7 @@ and select the size of the area to display it in."></unicode>
                                    </dictionary>
                                   </instance>
                                   <string role="key" value="_id"></string>
-                                  <unicode value="123_109_2.6"></unicode>
+                                  <unicode value="136_109_2.7"></unicode>
                                   <string role="key" value="_imageResource"></string>
                                   <instance class="exe.engine.resource.Resource" reference="28">
                                    <dictionary>
@@ -1520,7 +1520,7 @@ and select the size of the area to display it in."></unicode>
                                     <string role="key" value="_storageName"></string>
                                     <string value="01.jpg"></string>
                                     <string role="key" value="_userName"></string>
-                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpwi3avd\\01.jpg"></string>
+                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\01.jpg"></string>
                                     <string role="key" value="checksum"></string>
                                     <string value="47a3611f14252309d5a4237b5f5e3096"></string>
                                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1549,7 +1549,7 @@ and select the size of the area to display it in."></unicode>
                              <string role="key" value="intlinks_to_anchors"></string>
                              <dictionary></dictionary>
                              <string role="key" value="nextImageId"></string>
-                             <int value="7"></int>
+                             <int value="8"></int>
                              <string role="key" value="parentNode"></string>
                              <reference key="27"></reference>
                             </dictionary>
@@ -1677,7 +1677,7 @@ and select the size of the area to display it in."></unicode>
                                   <instance class="exe.engine.field.TextField">
                                    <dictionary>
                                     <string role="key" value="_id"></string>
-                                    <int value="326"></int>
+                                    <int value="334"></int>
                                     <string role="key" value="_idevice"></string>
                                     <none></none>
                                     <string role="key" value="_instruc"></string>
@@ -1691,7 +1691,7 @@ and select the size of the area to display it in."></unicode>
                                    </dictionary>
                                   </instance>
                                   <string role="key" value="_id"></string>
-                                  <unicode value="124_109_2.6"></unicode>
+                                  <unicode value="137_109_2.7"></unicode>
                                   <string role="key" value="_imageResource"></string>
                                   <instance class="exe.engine.resource.Resource" reference="31">
                                    <dictionary>
@@ -1702,7 +1702,7 @@ and select the size of the area to display it in."></unicode>
                                     <string role="key" value="_storageName"></string>
                                     <string value="02.jpg"></string>
                                     <string role="key" value="_userName"></string>
-                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpwi3avd\\02.jpg"></string>
+                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\02.jpg"></string>
                                     <string role="key" value="checksum"></string>
                                     <string value="0828a697a17199a4e35dc8124b293be2"></string>
                                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1731,7 +1731,7 @@ and select the size of the area to display it in."></unicode>
                              <string role="key" value="intlinks_to_anchors"></string>
                              <dictionary></dictionary>
                              <string role="key" value="nextImageId"></string>
-                             <int value="7"></int>
+                             <int value="8"></int>
                              <string role="key" value="parentNode"></string>
                              <reference key="27"></reference>
                             </dictionary>
@@ -1862,7 +1862,7 @@ and select the size of the area to display it in."></unicode>
                                   <instance class="exe.engine.field.TextField">
                                    <dictionary>
                                     <string role="key" value="_id"></string>
-                                    <int value="327"></int>
+                                    <int value="335"></int>
                                     <string role="key" value="_idevice"></string>
                                     <none></none>
                                     <string role="key" value="_instruc"></string>
@@ -1876,7 +1876,7 @@ and select the size of the area to display it in."></unicode>
                                    </dictionary>
                                   </instance>
                                   <string role="key" value="_id"></string>
-                                  <unicode value="125_110_2.12"></unicode>
+                                  <unicode value="138_110_2.14"></unicode>
                                   <string role="key" value="_imageResource"></string>
                                   <instance class="exe.engine.resource.Resource" reference="34">
                                    <dictionary>
@@ -1887,7 +1887,7 @@ and select the size of the area to display it in."></unicode>
                                     <string role="key" value="_storageName"></string>
                                     <string value="03.jpg"></string>
                                     <string role="key" value="_userName"></string>
-                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpwi3avd\\03.jpg"></string>
+                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\03.jpg"></string>
                                     <string role="key" value="checksum"></string>
                                     <string value="d937458e622fcb7f8a978c97e80d2763"></string>
                                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1914,7 +1914,7 @@ and select the size of the area to display it in."></unicode>
                                   <instance class="exe.engine.field.TextField">
                                    <dictionary>
                                     <string role="key" value="_id"></string>
-                                    <int value="328"></int>
+                                    <int value="337"></int>
                                     <string role="key" value="_idevice"></string>
                                     <none></none>
                                     <string role="key" value="_instruc"></string>
@@ -1928,7 +1928,7 @@ and select the size of the area to display it in."></unicode>
                                    </dictionary>
                                   </instance>
                                   <string role="key" value="_id"></string>
-                                  <unicode value="125_110_2.13"></unicode>
+                                  <unicode value="138_110_2.15"></unicode>
                                   <string role="key" value="_imageResource"></string>
                                   <instance class="exe.engine.resource.Resource" reference="35">
                                    <dictionary>
@@ -1939,7 +1939,7 @@ and select the size of the area to display it in."></unicode>
                                     <string role="key" value="_storageName"></string>
                                     <string value="05.jpg"></string>
                                     <string role="key" value="_userName"></string>
-                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpwi3avd\\05.jpg"></string>
+                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\05.jpg"></string>
                                     <string role="key" value="checksum"></string>
                                     <string value="4f82443a6f9cc3317212df92339abc6b"></string>
                                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1968,7 +1968,7 @@ and select the size of the area to display it in."></unicode>
                              <string role="key" value="intlinks_to_anchors"></string>
                              <dictionary></dictionary>
                              <string role="key" value="nextImageId"></string>
-                             <int value="14"></int>
+                             <int value="16"></int>
                              <string role="key" value="parentNode"></string>
                              <reference key="27"></reference>
                             </dictionary>
@@ -2098,7 +2098,7 @@ and select the size of the area to display it in."></unicode>
                                   <instance class="exe.engine.field.TextField">
                                    <dictionary>
                                     <string role="key" value="_id"></string>
-                                    <int value="330"></int>
+                                    <int value="340"></int>
                                     <string role="key" value="_idevice"></string>
                                     <none></none>
                                     <string role="key" value="_instruc"></string>
@@ -2112,7 +2112,7 @@ and select the size of the area to display it in."></unicode>
                                    </dictionary>
                                   </instance>
                                   <string role="key" value="_id"></string>
-                                  <unicode value="126_111_2.6"></unicode>
+                                  <unicode value="139_111_2.7"></unicode>
                                   <string role="key" value="_imageResource"></string>
                                   <instance class="exe.engine.resource.Resource" reference="38">
                                    <dictionary>
@@ -2123,7 +2123,7 @@ and select the size of the area to display it in."></unicode>
                                     <string role="key" value="_storageName"></string>
                                     <string value="EMPAQUETAR_TRABAJOS.gif"></string>
                                     <string role="key" value="_userName"></string>
-                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpwi3avd\\EMPAQUETAR_TRABAJOS.gif"></string>
+                                    <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\EMPAQUETAR_TRABAJOS.gif"></string>
                                     <string role="key" value="checksum"></string>
                                     <string value="1c02a9a50af9035841def0070fc85223"></string>
                                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2152,7 +2152,7 @@ and select the size of the area to display it in."></unicode>
                              <string role="key" value="intlinks_to_anchors"></string>
                              <dictionary></dictionary>
                              <string role="key" value="nextImageId"></string>
-                             <int value="7"></int>
+                             <int value="8"></int>
                              <string role="key" value="parentNode"></string>
                              <reference key="27"></reference>
                             </dictionary>
@@ -3163,7 +3163,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="ALESIS QSR.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\ALESIS QSR.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\ALESIS QSR.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="4c8530e0339fa2d778678d5c09c853b7"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3186,7 +3186,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="ALESIS QSRThumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\ALESIS QSRThumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\ALESIS QSRThumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="8e7b068ec3acb72e4630161b8ceeb1d3"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3239,7 +3239,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="MORPHEUS Z PLANE - DELANTERO.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\MORPHEUS Z PLANE - DELANTERO.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\MORPHEUS Z PLANE - DELANTERO.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="869a3e0d5ea02216b666765ba6dc7029"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3262,7 +3262,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="MORPHEUS Z PLANE - DELANTEROThumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\MORPHEUS Z PLANE - DELANTEROThumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\MORPHEUS Z PLANE - DELANTEROThumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="462987b6e68554de203ab6a5b393ff12"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3315,7 +3315,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="ultra_proteus.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\ultra_proteus.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\ultra_proteus.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="97a2e4c9132f97e2be914ae2da29ef65"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3338,7 +3338,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="ultra_proteusThumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\ultra_proteusThumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\ultra_proteusThumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="35d35dd67f498b62bb45ed6fdf9a0965"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3456,7 +3456,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="KORG-IS40-01.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\KORG-IS40-01.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\KORG-IS40-01.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="51d1fe3aa8d64d0d6cdfeacd5388af4a"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3479,7 +3479,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="KORG-IS40-01Thumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\KORG-IS40-01Thumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\KORG-IS40-01Thumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="9b02e54156eec6b52c22c3f97409c6a1"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3532,7 +3532,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="KORG MS20 ANALOGICO.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\KORG MS20 ANALOGICO.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\KORG MS20 ANALOGICO.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="a29bb86b26c562903b54218f01e1b865"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3555,7 +3555,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="KORG MS20 ANALOGICOThumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\KORG MS20 ANALOGICOThumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\KORG MS20 ANALOGICOThumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="d5051237ce052348c031b12078924534"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3608,7 +3608,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="YAMAHA PSR 295 - PRECONFIGURADO.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\YAMAHA PSR 295 - PRECONFIGURADO.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\YAMAHA PSR 295 - PRECONFIGURADO.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="83b6b47d985c17859cebafb19a65f416"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3631,7 +3631,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="YAMAHA PSR 295 - PRECONFIGURADOThumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\YAMAHA PSR 295 - PRECONFIGURADOThumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\YAMAHA PSR 295 - PRECONFIGURADOThumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="aecff3b4d7d82253f091e7e2acd70425"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3684,7 +3684,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="juno_d_limited_edition_top_gal.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\juno_d_limited_edition_top_gal.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\juno_d_limited_edition_top_gal.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="9c315accc299e986e6ccec62eec83004"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3707,7 +3707,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="juno_d_limited_edition_top_galThumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\juno_d_limited_edition_top_galThumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\juno_d_limited_edition_top_galThumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="14f5224a3ace98712c437858d9db47b9"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3760,7 +3760,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="PROPHET 5.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\PROPHET 5.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\PROPHET 5.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="be0506b2a251608ee153cd0b9ada2b14"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3783,7 +3783,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="PROPHET 5Thumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\PROPHET 5Thumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\PROPHET 5Thumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="efadea603199c2192b6a806c4eff9763"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3836,7 +3836,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="korg-microkorg-632466.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\korg-microkorg-632466.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\korg-microkorg-632466.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="96541fd4bbd8e26becffd29a68006f14"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3859,7 +3859,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="korg-microkorg-632466Thumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\korg-microkorg-632466Thumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\korg-microkorg-632466Thumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="d7951d290a055b0a36a6d505396c9573"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3912,7 +3912,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="YAMAHA DX7.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\YAMAHA DX7.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\YAMAHA DX7.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="046077041920ca2422f6fe20249f230f"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3935,7 +3935,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="YAMAHA DX7Thumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\YAMAHA DX7Thumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\YAMAHA DX7Thumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="ef8dc9cbd52fe2c70c5a39d53e44dbfe"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4061,7 +4061,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="UMX 49.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\UMX 49.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\UMX 49.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="b258b79d428ebe52e3bc0f5e22f43b5c"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4084,7 +4084,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="UMX 49Thumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\UMX 49Thumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\UMX 49Thumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="5a6df492431dc8fde28b8208fd288beb"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4137,7 +4137,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="UMX250.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\UMX250.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\UMX250.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="8558b964d6411466ab6b32b2283715c1"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4160,7 +4160,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="UMX250Thumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\UMX250Thumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\UMX250Thumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="84c5cb3c6e9ce823b36d4c6d222a635a"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4213,7 +4213,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="peavey-pc-1600-x-1139458.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\peavey-pc-1600-x-1139458.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\peavey-pc-1600-x-1139458.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="bc442ac0d7bfc41cd67a021b81277527"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4236,7 +4236,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="peavey-pc-1600-x-1139458Thumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\peavey-pc-1600-x-1139458Thumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\peavey-pc-1600-x-1139458Thumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="53d98cc8c1bed0582fe413ba212064a5"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4289,7 +4289,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="mk2.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\mk2.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\mk2.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="8f6e8426b609fd268ca9e1560eb454ab"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4312,7 +4312,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="mk2Thumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\mk2Thumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\mk2Thumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="93f50fa77aa5a51b21ddc9d03cb2a69f"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4432,7 +4432,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="Kawai_K5000W.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\Kawai_K5000W.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\Kawai_K5000W.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="b6c9415af0aeae4a2a4850c89c630079"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4455,7 +4455,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="Kawai_K5000WThumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\Kawai_K5000WThumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\Kawai_K5000WThumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="fe5b9a76113faf0c295cf7e0679ed184"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4508,7 +4508,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="KORG N364.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\KORG N364.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\KORG N364.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="a5951f11940491e8c8a323e8f5033ee3"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4531,7 +4531,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="KORG N364Thumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\KORG N364Thumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\KORG N364Thumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="a22e6b34f58d40dd5c58979c8ba9df8f"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4584,7 +4584,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="roland-jv-1000-900652.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\roland-jv-1000-900652.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\roland-jv-1000-900652.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="6041330fbd6ce217cf8601f48c287094"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4607,7 +4607,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="roland-jv-1000-900652Thumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\roland-jv-1000-900652Thumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\roland-jv-1000-900652Thumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="894de69bee93621e78216e1e807119d0"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4725,7 +4725,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="02_EMU_ESI_32.jpg"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\02_EMU_ESI_32.jpg"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\02_EMU_ESI_32.jpg"></string>
                         <string role="key" value="checksum"></string>
                         <string value="1d6f01331e3f89dd57c5f461bf5d8387"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4748,7 +4748,7 @@ these in a gallery context rather then individually.&lt;/p&gt;"></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="02_EMU_ESI_32Thumbnail.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\02_EMU_ESI_32Thumbnail.png"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\02_EMU_ESI_32Thumbnail.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="47de709ec136453d00533aa547442019"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5000,7 +5000,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                          <instance class="exe.engine.field.TextField">
                           <dictionary>
                            <string role="key" value="_id"></string>
-                           <int value="277"></int>
+                           <int value="352"></int>
                            <string role="key" value="_idevice"></string>
                            <none></none>
                            <string role="key" value="_instruc"></string>
@@ -5014,7 +5014,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                           </dictionary>
                          </instance>
                          <string role="key" value="_id"></string>
-                         <unicode value="36_110_2.1"></unicode>
+                         <unicode value="36_110_2.2"></unicode>
                          <string role="key" value="_imageResource"></string>
                          <instance class="exe.engine.resource.Resource" reference="100">
                           <dictionary>
@@ -5025,7 +5025,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                            <string role="key" value="_storageName"></string>
                            <string value="SPECTER_-_CATEGORIAS.jpg"></string>
                            <string role="key" value="_userName"></string>
-                           <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\SPECTER_-_CATEGORIAS.jpg"></string>
+                           <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\SPECTER_-_CATEGORIAS.jpg"></string>
                            <string role="key" value="checksum"></string>
                            <string value="5950a74da4377fed756a2cfe68743d9d"></string>
                            <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5054,7 +5054,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                     <string role="key" value="intlinks_to_anchors"></string>
                     <dictionary></dictionary>
                     <string role="key" value="nextImageId"></string>
-                    <int value="2"></int>
+                    <int value="3"></int>
                     <string role="key" value="parentNode"></string>
                     <reference key="44"></reference>
                    </dictionary>
@@ -5499,7 +5499,7 @@ and select the size of the area to display it in."></unicode>
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="264"></int>
+                              <int value="336"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -5513,7 +5513,7 @@ and select the size of the area to display it in."></unicode>
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="54_50_2.11"></unicode>
+                            <unicode value="54_50_2.12"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <instance class="exe.engine.resource.Resource" reference="108">
                              <dictionary>
@@ -5524,7 +5524,7 @@ and select the size of the area to display it in."></unicode>
                               <string role="key" value="_storageName"></string>
                               <string value="03_CADENA_AUDIO.jpg"></string>
                               <string role="key" value="_userName"></string>
-                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\03_CADENA_AUDIO.jpg"></string>
+                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\03_CADENA_AUDIO.jpg"></string>
                               <string role="key" value="checksum"></string>
                               <string value="e6cdb156044cb4ac91871df3dac5f5d3"></string>
                               <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5553,7 +5553,7 @@ and select the size of the area to display it in."></unicode>
                        <string role="key" value="intlinks_to_anchors"></string>
                        <dictionary></dictionary>
                        <string role="key" value="nextImageId"></string>
-                       <int value="12"></int>
+                       <int value="13"></int>
                        <string role="key" value="parentNode"></string>
                        <reference key="105"></reference>
                       </dictionary>
@@ -5707,7 +5707,7 @@ and select the size of the area to display it in."></unicode>
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="265"></int>
+                              <int value="338"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -5721,7 +5721,7 @@ and select the size of the area to display it in."></unicode>
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="55_49_2.7"></unicode>
+                            <unicode value="55_49_2.8"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <instance class="exe.engine.resource.Resource" reference="111">
                              <dictionary>
@@ -5732,7 +5732,7 @@ and select the size of the area to display it in."></unicode>
                               <string role="key" value="_storageName"></string>
                               <string value="06_MODULO_DE_VOZ_2.jpg"></string>
                               <string role="key" value="_userName"></string>
-                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\06_MODULO_DE_VOZ_2.jpg"></string>
+                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\06_MODULO_DE_VOZ_2.jpg"></string>
                               <string role="key" value="checksum"></string>
                               <string value="6841a8d208ab19688564a3b0416df2c9"></string>
                               <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -5761,7 +5761,7 @@ and select the size of the area to display it in."></unicode>
                        <string role="key" value="intlinks_to_anchors"></string>
                        <dictionary></dictionary>
                        <string role="key" value="nextImageId"></string>
-                       <int value="8"></int>
+                       <int value="9"></int>
                        <string role="key" value="parentNode"></string>
                        <reference key="105"></reference>
                       </dictionary>
@@ -6079,7 +6079,7 @@ as these can tend to be ambiguous."></unicode>
                               <instance class="exe.engine.field.TextField">
                                <dictionary>
                                 <string role="key" value="_id"></string>
-                                <int value="267"></int>
+                                <int value="342"></int>
                                 <string role="key" value="_idevice"></string>
                                 <none></none>
                                 <string role="key" value="_instruc"></string>
@@ -6093,7 +6093,7 @@ as these can tend to be ambiguous."></unicode>
                                </dictionary>
                               </instance>
                               <string role="key" value="_id"></string>
-                              <unicode value="12_87.10"></unicode>
+                              <unicode value="12_87.12"></unicode>
                               <string role="key" value="_imageResource"></string>
                               <instance class="exe.engine.resource.Resource" reference="130">
                                <dictionary>
@@ -6104,7 +6104,7 @@ as these can tend to be ambiguous."></unicode>
                                 <string role="key" value="_storageName"></string>
                                 <string value="silbido.wav"></string>
                                 <string role="key" value="_userName"></string>
-                                <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\silbido.wav"></string>
+                                <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\silbido.wav"></string>
                                 <string role="key" value="checksum"></string>
                                 <string value="c21cc49476e6cf2fc4bef2ed8dcd4560"></string>
                                 <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6131,7 +6131,7 @@ as these can tend to be ambiguous."></unicode>
                               <instance class="exe.engine.field.TextField">
                                <dictionary>
                                 <string role="key" value="_id"></string>
-                                <int value="268"></int>
+                                <int value="343"></int>
                                 <string role="key" value="_idevice"></string>
                                 <none></none>
                                 <string role="key" value="_instruc"></string>
@@ -6145,7 +6145,7 @@ as these can tend to be ambiguous."></unicode>
                                </dictionary>
                               </instance>
                               <string role="key" value="_id"></string>
-                              <unicode value="12_87.11"></unicode>
+                              <unicode value="12_87.13"></unicode>
                               <string role="key" value="_imageResource"></string>
                               <instance class="exe.engine.resource.Resource" reference="131">
                                <dictionary>
@@ -6156,7 +6156,7 @@ as these can tend to be ambiguous."></unicode>
                                 <string role="key" value="_storageName"></string>
                                 <string value="silbido.wav"></string>
                                 <string role="key" value="_userName"></string>
-                                <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\silbido.wav"></string>
+                                <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\silbido.wav"></string>
                                 <string role="key" value="checksum"></string>
                                 <string value="c21cc49476e6cf2fc4bef2ed8dcd4560"></string>
                                 <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6185,7 +6185,7 @@ as these can tend to be ambiguous."></unicode>
                          <string role="key" value="intlinks_to_anchors"></string>
                          <dictionary></dictionary>
                          <string role="key" value="nextImageId"></string>
-                         <int value="12"></int>
+                         <int value="14"></int>
                          <string role="key" value="parentNode"></string>
                          <reference key="114"></reference>
                         </dictionary>
@@ -6511,7 +6511,7 @@ as these can tend to be ambiguous."></unicode>
                               <instance class="exe.engine.field.TextField">
                                <dictionary>
                                 <string role="key" value="_id"></string>
-                                <int value="273"></int>
+                                <int value="348"></int>
                                 <string role="key" value="_idevice"></string>
                                 <none></none>
                                 <string role="key" value="_instruc"></string>
@@ -6525,7 +6525,7 @@ as these can tend to be ambiguous."></unicode>
                                </dictionary>
                               </instance>
                               <string role="key" value="_id"></string>
-                              <unicode value="12_188.8"></unicode>
+                              <unicode value="12_188.10"></unicode>
                               <string role="key" value="_imageResource"></string>
                               <instance class="exe.engine.resource.Resource" reference="132">
                                <dictionary>
@@ -6536,7 +6536,7 @@ as these can tend to be ambiguous."></unicode>
                                 <string role="key" value="_storageName"></string>
                                 <string value="sirena.wav"></string>
                                 <string role="key" value="_userName"></string>
-                                <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\sirena.wav"></string>
+                                <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\sirena.wav"></string>
                                 <string role="key" value="checksum"></string>
                                 <string value="f90a8443c72bc5b8d0934e8facac31b5"></string>
                                 <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6563,7 +6563,7 @@ as these can tend to be ambiguous."></unicode>
                               <instance class="exe.engine.field.TextField">
                                <dictionary>
                                 <string role="key" value="_id"></string>
-                                <int value="274"></int>
+                                <int value="349"></int>
                                 <string role="key" value="_idevice"></string>
                                 <none></none>
                                 <string role="key" value="_instruc"></string>
@@ -6577,7 +6577,7 @@ as these can tend to be ambiguous."></unicode>
                                </dictionary>
                               </instance>
                               <string role="key" value="_id"></string>
-                              <unicode value="12_188.9"></unicode>
+                              <unicode value="12_188.11"></unicode>
                               <string role="key" value="_imageResource"></string>
                               <instance class="exe.engine.resource.Resource" reference="133">
                                <dictionary>
@@ -6588,7 +6588,7 @@ as these can tend to be ambiguous."></unicode>
                                 <string role="key" value="_storageName"></string>
                                 <string value="sirena.wav"></string>
                                 <string role="key" value="_userName"></string>
-                                <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\sirena.wav"></string>
+                                <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\sirena.wav"></string>
                                 <string role="key" value="checksum"></string>
                                 <string value="f90a8443c72bc5b8d0934e8facac31b5"></string>
                                 <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -6617,7 +6617,7 @@ as these can tend to be ambiguous."></unicode>
                          <string role="key" value="intlinks_to_anchors"></string>
                          <dictionary></dictionary>
                          <string role="key" value="nextImageId"></string>
-                         <int value="10"></int>
+                         <int value="12"></int>
                          <string role="key" value="parentNode"></string>
                          <reference key="114"></reference>
                         </dictionary>
@@ -7029,7 +7029,7 @@ for the other options."></unicode>
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="269"></int>
+                              <int value="344"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -7043,7 +7043,7 @@ for the other options."></unicode>
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="13_63_2.20"></unicode>
+                            <unicode value="13_63_2.26"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <instance class="exe.engine.resource.Resource" reference="136">
                              <dictionary>
@@ -7054,7 +7054,7 @@ for the other options."></unicode>
                               <string role="key" value="_storageName"></string>
                               <string value="silbido.wav"></string>
                               <string role="key" value="_userName"></string>
-                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\silbido.wav"></string>
+                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\silbido.wav"></string>
                               <string role="key" value="checksum"></string>
                               <string value="c21cc49476e6cf2fc4bef2ed8dcd4560"></string>
                               <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7081,7 +7081,7 @@ for the other options."></unicode>
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="270"></int>
+                              <int value="345"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -7095,7 +7095,7 @@ for the other options."></unicode>
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="13_63_2.21"></unicode>
+                            <unicode value="13_63_2.27"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <instance class="exe.engine.resource.Resource" reference="137">
                              <dictionary>
@@ -7106,7 +7106,7 @@ for the other options."></unicode>
                               <string role="key" value="_storageName"></string>
                               <string value="silbido.wav"></string>
                               <string role="key" value="_userName"></string>
-                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\silbido.wav"></string>
+                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\silbido.wav"></string>
                               <string role="key" value="checksum"></string>
                               <string value="c21cc49476e6cf2fc4bef2ed8dcd4560"></string>
                               <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7133,7 +7133,7 @@ for the other options."></unicode>
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="271"></int>
+                              <int value="346"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -7147,7 +7147,7 @@ for the other options."></unicode>
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="13_63_2.22"></unicode>
+                            <unicode value="13_63_2.28"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <instance class="exe.engine.resource.Resource" reference="138">
                              <dictionary>
@@ -7158,7 +7158,7 @@ for the other options."></unicode>
                               <string role="key" value="_storageName"></string>
                               <string value="silbido1.jpg"></string>
                               <string role="key" value="_userName"></string>
-                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\silbido1.jpg"></string>
+                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\silbido1.jpg"></string>
                               <string role="key" value="checksum"></string>
                               <string value="fe12b02856a21b0336d54bcc3e0c3618"></string>
                               <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7185,7 +7185,7 @@ for the other options."></unicode>
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="272"></int>
+                              <int value="347"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -7199,7 +7199,7 @@ for the other options."></unicode>
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="13_63_2.23"></unicode>
+                            <unicode value="13_63_2.29"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <instance class="exe.engine.resource.Resource" reference="139">
                              <dictionary>
@@ -7210,7 +7210,7 @@ for the other options."></unicode>
                               <string role="key" value="_storageName"></string>
                               <string value="sirena.jpg"></string>
                               <string role="key" value="_userName"></string>
-                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\sirena.jpg"></string>
+                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\sirena.jpg"></string>
                               <string role="key" value="checksum"></string>
                               <string value="452525eb15e263f14e59163d88bb0956"></string>
                               <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7237,7 +7237,7 @@ for the other options."></unicode>
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="275"></int>
+                              <int value="350"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -7251,7 +7251,7 @@ for the other options."></unicode>
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="13_63_2.24"></unicode>
+                            <unicode value="13_63_2.30"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <instance class="exe.engine.resource.Resource" reference="140">
                              <dictionary>
@@ -7262,7 +7262,7 @@ for the other options."></unicode>
                               <string role="key" value="_storageName"></string>
                               <string value="sirena.wav"></string>
                               <string role="key" value="_userName"></string>
-                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\sirena.wav"></string>
+                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\sirena.wav"></string>
                               <string role="key" value="checksum"></string>
                               <string value="f90a8443c72bc5b8d0934e8facac31b5"></string>
                               <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7289,7 +7289,7 @@ for the other options."></unicode>
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="276"></int>
+                              <int value="351"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -7303,7 +7303,7 @@ for the other options."></unicode>
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="13_63_2.25"></unicode>
+                            <unicode value="13_63_2.31"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <instance class="exe.engine.resource.Resource" reference="141">
                              <dictionary>
@@ -7314,7 +7314,7 @@ for the other options."></unicode>
                               <string role="key" value="_storageName"></string>
                               <string value="sirena.wav"></string>
                               <string role="key" value="_userName"></string>
-                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\sirena.wav"></string>
+                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\sirena.wav"></string>
                               <string role="key" value="checksum"></string>
                               <string value="f90a8443c72bc5b8d0934e8facac31b5"></string>
                               <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7343,7 +7343,7 @@ for the other options."></unicode>
                        <string role="key" value="intlinks_to_anchors"></string>
                        <dictionary></dictionary>
                        <string role="key" value="nextImageId"></string>
-                       <int value="26"></int>
+                       <int value="32"></int>
                        <string role="key" value="parentNode"></string>
                        <reference key="114"></reference>
                       </dictionary>
@@ -7490,7 +7490,7 @@ for the other options."></unicode>
                             <instance class="exe.engine.field.TextField">
                              <dictionary>
                               <string role="key" value="_id"></string>
-                              <int value="266"></int>
+                              <int value="341"></int>
                               <string role="key" value="_idevice"></string>
                               <none></none>
                               <string role="key" value="_instruc"></string>
@@ -7504,7 +7504,7 @@ for the other options."></unicode>
                              </dictionary>
                             </instance>
                             <string role="key" value="_id"></string>
-                            <unicode value="14_64_2.4"></unicode>
+                            <unicode value="14_64_2.5"></unicode>
                             <string role="key" value="_imageResource"></string>
                             <instance class="exe.engine.resource.Resource" reference="144">
                              <dictionary>
@@ -7515,7 +7515,7 @@ for the other options."></unicode>
                               <string role="key" value="_storageName"></string>
                               <string value="resumen_controles.jpg"></string>
                               <string role="key" value="_userName"></string>
-                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmp7itg1d\\resumen_controles.jpg"></string>
+                              <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpof3bqp\\resumen_controles.jpg"></string>
                               <string role="key" value="checksum"></string>
                               <string value="3ed506be7e7e7ef2731a8ac36b019c3d"></string>
                               <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -7544,7 +7544,7 @@ for the other options."></unicode>
                        <string role="key" value="intlinks_to_anchors"></string>
                        <dictionary></dictionary>
                        <string role="key" value="nextImageId"></string>
-                       <int value="5"></int>
+                       <int value="6"></int>
                        <string role="key" value="parentNode"></string>
                        <reference key="114"></reference>
                       </dictionary>
@@ -7913,7 +7913,7 @@ for the other options."></unicode>
               </list>
               <string role="key" value="children"></string>
               <list>
-               <instance class="exe.engine.node.Node" reference="153">
+               <instance class="exe.engine.node.Node" reference="165">
                 <dictionary>
                  <string role="key" value="_title"></string>
                  <unicode value="Korg MS-20"></unicode>
@@ -7939,7 +7939,7 @@ for the other options."></unicode>
                  <list></list>
                 </dictionary>
                </instance>
-               <instance class="exe.engine.node.Node" reference="154">
+               <instance class="exe.engine.node.Node" reference="166">
                 <dictionary>
                  <string role="key" value="_title"></string>
                  <unicode value="Moog Modular"></unicode>
@@ -7965,7 +7965,7 @@ for the other options."></unicode>
                  <list></list>
                 </dictionary>
                </instance>
-               <instance class="exe.engine.node.Node" reference="155">
+               <instance class="exe.engine.node.Node" reference="167">
                 <dictionary>
                  <string role="key" value="_title"></string>
                  <unicode value="Pigments"></unicode>
@@ -8210,6 +8210,651 @@ for the other options."></unicode>
         <list></list>
        </dictionary>
       </instance>
+      <instance class="exe.engine.node.Node" reference="164">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Anexos"></unicode>
+        <string role="key" value="idevices"></string>
+        <list></list>
+        <string role="key" value="_id"></string>
+        <unicode value="18"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="12"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:S%C3%ADntesis%20de%20sonido%20I:Anexos"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list>
+         <instance class="exe.engine.node.Node" reference="155">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Promoción 2020 - 01. Creadores Sin Cuarentena"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="153">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Denominación de origen"></unicode>
+              <string role="key" value="_attributes"></string>
+              <list>
+               <tuple>
+                <string value="title"></string>
+                <list>
+                 <string value="Title"></string>
+                 <int value="0"></int>
+                 <int value="0"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="category"></string>
+                <list>
+                 <string value="Category"></string>
+                 <int value="0"></int>
+                 <int value="1"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="css-class"></string>
+                <list>
+                 <string value="CSS class"></string>
+                 <int value="0"></int>
+                 <int value="2"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="icon"></string>
+                <list>
+                 <string value="Icon"></string>
+                 <int value="0"></int>
+                 <int value="3"></int>
+                </list>
+               </tuple>
+              </list>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_iDeviceDir"></string>
+              <string value="text"></string>
+              <string role="key" value="_purpose"></string>
+              <string value=""></string>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_valid"></string>
+              <bool value="1"></bool>
+              <string role="key" value="class_"></string>
+              <unicode value="text"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+              <int value="1"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="154">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="146_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="153"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14pt; font-family: tahoma, arial, helvetica, sans-serif;&quot;&gt;Cierto es que ustedes pueden cambiar de nombre a nuestro grupo, &lt;a href=&quot;https://open.spotify.com/show/4ofWeCvtkdNomrpaQgl7EB?si=RDom&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Fran Trujillo&lt;/a&gt; el entretenidísmo podcaster español sugirió este nombre, pero en tanto ustedes no decidan cambiarlo serán nuestros &lt;em&gt;Creadores Sin Cuarentena&lt;/em&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt; font-family: tahoma, arial, helvetica, sans-serif;&quot;&gt;Mostramos el resultado de nuestra encuesta para conocernos todos:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt; font-family: tahoma, arial, helvetica, sans-serif;&quot;&gt;¿Cuántos Productores Musicales e Ingenieros de Sonidos estamos reunidos en este espacio?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 14pt; font-family: tahoma, arial, helvetica, sans-serif;&quot;&gt;&lt;img src=&quot;resources/01_CARRERA.jpg&quot; alt=&quot;&quot; title=&quot;carrera&quot; width=&quot;772&quot; height=&quot;322&quot; /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="353"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <string value=""></string>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="41_146_2.0"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="156">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="153"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="12"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="01_CARRERA.jpg"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpcjifwe.eXe\\previews\\allyourbase\\01_CARRERA.jpg"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="803e7c005a4c41d78dc58c1de33c3a9f"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="154"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <none></none>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="0"></bool>
+                     </dictionary>
+                    </instance>
+                   </list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="154"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="1"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="155"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="41"></unicode>
+              <string role="key" value="ideviceCategory"></string>
+              <unicode value="Text and Tasks"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parentNode"></string>
+              <reference key="155"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list>
+               <reference key="156"></reference>
+              </list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="157">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Especialidad en Ingeniería de Sonido"></unicode>
+              <string role="key" value="_attributes"></string>
+              <list>
+               <tuple>
+                <string value="title"></string>
+                <list>
+                 <string value="Title"></string>
+                 <int value="0"></int>
+                 <int value="0"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="category"></string>
+                <list>
+                 <string value="Category"></string>
+                 <int value="0"></int>
+                 <int value="1"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="css-class"></string>
+                <list>
+                 <string value="CSS class"></string>
+                 <int value="0"></int>
+                 <int value="2"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="icon"></string>
+                <list>
+                 <string value="Icon"></string>
+                 <int value="0"></int>
+                 <int value="3"></int>
+                </list>
+               </tuple>
+              </list>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_iDeviceDir"></string>
+              <string value="text"></string>
+              <string role="key" value="_purpose"></string>
+              <string value=""></string>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_valid"></string>
+              <bool value="1"></bool>
+              <string role="key" value="class_"></string>
+              <unicode value="text"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+              <int value="1"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="158">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="147_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="157"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;img src=&quot;resources/02_ESPECIALIDAD_IS.jpg&quot; alt=&quot;especialidad IS&quot; width=&quot;768&quot; height=&quot;371&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="354"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <string value=""></string>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="42_147_2.0"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="159">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="157"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="12"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="02_ESPECIALIDAD_IS.jpg"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpcjifwe.eXe\\previews\\allyourbase\\02_ESPECIALIDAD_IS.jpg"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="718f954b0658d18690c5f50567937645"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="158"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <none></none>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="0"></bool>
+                     </dictionary>
+                    </instance>
+                   </list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="158"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="1"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="155"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="42"></unicode>
+              <string role="key" value="ideviceCategory"></string>
+              <unicode value="Text and Tasks"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parentNode"></string>
+              <reference key="155"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list>
+               <reference key="159"></reference>
+              </list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="160">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Experiencia en Instrumento musical"></unicode>
+              <string role="key" value="_attributes"></string>
+              <list>
+               <tuple>
+                <string value="title"></string>
+                <list>
+                 <string value="Title"></string>
+                 <int value="0"></int>
+                 <int value="0"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="category"></string>
+                <list>
+                 <string value="Category"></string>
+                 <int value="0"></int>
+                 <int value="1"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="css-class"></string>
+                <list>
+                 <string value="CSS class"></string>
+                 <int value="0"></int>
+                 <int value="2"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="icon"></string>
+                <list>
+                 <string value="Icon"></string>
+                 <int value="0"></int>
+                 <int value="3"></int>
+                </list>
+               </tuple>
+              </list>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_iDeviceDir"></string>
+              <string value="text"></string>
+              <string role="key" value="_purpose"></string>
+              <string value=""></string>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_valid"></string>
+              <bool value="1"></bool>
+              <string role="key" value="class_"></string>
+              <unicode value="text"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+              <int value="1"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="161">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="148_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="160"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;img src=&quot;resources/03_INSTRUMENTO_MUSICAL_CARRERA.jpg&quot; alt=&quot;experiencia en instrumento musical&quot; width=&quot;630&quot; height=&quot;273&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/04_SINTESIS_INSTRUMENTO_MUSICAL.jpg&quot; alt=&quot;SINTESIS INSTRUMENTO MUSICAL&quot; width=&quot;480&quot; height=&quot;289&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="355"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <string value=""></string>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="43_148_2.0"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="162">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="160"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="12"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="03_INSTRUMENTO_MUSICAL_CARRERA.jpg"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpcjifwe.eXe\\previews\\allyourbase\\03_INSTRUMENTO_MUSICAL_CARRERA.jpg"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="4d5a5a4f463a79b19e504a6762d1431a"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="161"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <none></none>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="0"></bool>
+                     </dictionary>
+                    </instance>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="356"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <string value=""></string>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="43_148_2.1"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="163">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="160"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="12"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="04_SINTESIS_INSTRUMENTO_MUSICAL.jpg"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\julio\\appdata\\local\\temp\\tmpcjifwe.eXe\\previews\\allyourbase\\04_SINTESIS_INSTRUMENTO_MUSICAL.jpg"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="9a7ecee3d3f33982e4e27415c122c878"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="161"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <none></none>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="0"></bool>
+                     </dictionary>
+                    </instance>
+                   </list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="161"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="2"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="155"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="43"></unicode>
+              <string role="key" value="ideviceCategory"></string>
+              <unicode value="Text and Tasks"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parentNode"></string>
+              <reference key="155"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list>
+               <reference key="162"></reference>
+               <reference key="163"></reference>
+              </list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="19"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="12"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:S%C3%ADntesis%20de%20sonido%20I:Anexos:Promoci%C3%B3n%202020%20-%2001.%20Creadores%20Sin%20Cuarentena"></string>
+           <string role="key" value="parent"></string>
+           <reference key="164"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
      </list>
     </dictionary>
    </instance>
@@ -8225,6 +8870,10 @@ for the other options."></unicode>
    <reference key="27"></reference>
    <unicode role="key" value="17"></unicode>
    <reference key="41"></reference>
+   <unicode role="key" value="18"></unicode>
+   <reference key="164"></reference>
+   <unicode role="key" value="19"></unicode>
+   <reference key="155"></reference>
    <unicode role="key" value="2"></unicode>
    <reference key="149"></reference>
    <unicode role="key" value="4"></unicode>
@@ -8234,11 +8883,11 @@ for the other options."></unicode>
    <unicode role="key" value="6"></unicode>
    <reference key="152"></reference>
    <unicode role="key" value="7"></unicode>
-   <reference key="153"></reference>
+   <reference key="165"></reference>
    <unicode role="key" value="8"></unicode>
-   <reference key="154"></reference>
+   <reference key="166"></reference>
    <unicode role="key" value="9"></unicode>
-   <reference key="155"></reference>
+   <reference key="167"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value="- Entender los parámetros de un sintetizador basado en el enfoque sustractivo
@@ -8261,7 +8910,7 @@ for the other options."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="3"></reference>
+  <reference key="155"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -9803,6 +10452,10 @@ $(window).load(function(){
    <list>
     <reference key="56"></reference>
    </list>
+   <string role="key" value="4d5a5a4f463a79b19e504a6762d1431a"></string>
+   <list>
+    <reference key="162"></reference>
+   </list>
    <string role="key" value="4f82443a6f9cc3317212df92339abc6b"></string>
    <list>
     <reference key="35"></reference>
@@ -9830,6 +10483,14 @@ $(window).load(function(){
    <string role="key" value="6841a8d208ab19688564a3b0416df2c9"></string>
    <list>
     <reference key="111"></reference>
+   </list>
+   <string role="key" value="718f954b0658d18690c5f50567937645"></string>
+   <list>
+    <reference key="159"></reference>
+   </list>
+   <string role="key" value="803e7c005a4c41d78dc58c1de33c3a9f"></string>
+   <list>
+    <reference key="156"></reference>
    </list>
    <string role="key" value="83b6b47d985c17859cebafb19a65f416"></string>
    <list>
@@ -9870,6 +10531,10 @@ $(window).load(function(){
    <string role="key" value="97a2e4c9132f97e2be914ae2da29ef65"></string>
    <list>
     <reference key="60"></reference>
+   </list>
+   <string role="key" value="9a7ecee3d3f33982e4e27415c122c878"></string>
+   <list>
+    <reference key="163"></reference>
    </list>
    <string role="key" value="9b02e54156eec6b52c22c3f97409c6a1"></string>
    <list>
