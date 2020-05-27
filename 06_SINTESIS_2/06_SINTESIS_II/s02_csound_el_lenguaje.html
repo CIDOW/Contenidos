@@ -68,6 +68,146 @@
 <div id="main-wrapper">
 <section id="main">
 <header id="nodeDecoration"><h1 id="nodeTitle">S02. Csound, el lenguaje</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id40">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Breve historia de Csound</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta40_147_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">En la así llamada "<em>Enciclopedia del vulgo</em>" podrás encontrar en ese <em>Wiki</em> un artículo bastante aceptable de qué es Csound y la historia que hay detrás de él. Solo por cultura general es recomendable <a href="https://es.wikipedia.org/wiki/Csound" target="_blank" rel="noopener">acceder a ella</a>. </span></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id41">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Estructura de un proyecto Csound</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta41_148_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">En sentido estricto-práctico Csound no es más que un compilador que genera una señal de audio con dos archivos de texto:</span></p>
+<ul>
+<li style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Uno, generalmente con la extensión .ORC, denominado <em>orchestra</em> y que contiene todas las instrucciones de cómo se generará la señal de audio o procesará una señal de audio pre-existente ya sea en tiempo real o en tiempo diferido.</span></li>
+<li style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Otro, generalmente con la extensión .SCO, denominado <em>score</em> que es en verdad una lista de eventos de cómo tiene que actuar la <em>orchestra</em> en el tiempo. Actualmente está prácticamente en desuso pues la mayoría de veces se realiza todo en tiempo real ingresando controles MIDI u Open Sound Control.</span></li>
+</ul>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"><img src="csound_old.jpg" alt="Csound old" width="483" height="361" style="display: block; margin-left: auto; margin-right: auto;" /></span></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id42">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Formato &quot;moderno&quot; csound</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta42_149_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Desde hace ya bastante tiempo Csound adoptó, para la redacción de sus proyectos, un formato moderno al estilo marcadores de HTML consiguiendo, con esto, una organización de todo un proyecto en un solo documento. Este documento suele tener la extensión .CSD</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"><img src="csund_modern.jpg" alt="csound csd project" width="818" height="414" style="display: block; margin-left: auto; margin-right: auto;" /></span></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id43">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Actividad:</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta43_150_2" class="block iDevice_content">
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Si bien es cierto podemos escribir un proyecto directamente con archivos de texto, en nuestro taller, utilizaremos un entorno de trabajo (<a href="https://youtu.be/xmHwYc-6W3E" target="_blank" title="Qué es un framework" rel="noopener"><em>Framework</em></a>) denominado <a href="https://cabbageaudio.com" title="Página web de Cabbage">Cabbage </a>de <a href="https://www.dkit.ie/users/rory-walsh" target="_blank" rel="noopener">Rory Walsh</a>.</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Actividad:</span></p>
+<ol>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Crea un proyecto nuevo en Cabbage.</span></li>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Realiza una captura entera de todo el proyecto.</span></li>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">En la captura enmarca las distintas secciones y etiquétalas como en nuestra imagen anterior.</span></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id44">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Una primera aproximación al corazón de Csound</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta44_151_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Con el lenguaje Csound podrás generar señales de audio o procesarlas tanto en tiempo real como en diferido podrás:</span></p>
+<ul>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Crear un sintetizador (generador de audio)</span></li>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Un multiprocesador de efectos (procesador de audio) para voz, instrumento musical, cualquier otro tipo de señal</span></li>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Ejercer control remoto sobre los parámetros: Usando protocolo MIDI o protocolo Open Sound Control.</span></li>
+</ul>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Todo eso Csound lo hace para ti a través de <em>funciones</em> que Csound denomina <em>opcode</em>. </span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Un <em>opcode</em> o <em>función</em> suele tener en los lenguajes de programación algunos elementos básicos como:</span></p>
+<ul>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"><strong>Nombre de la función</strong>. Por ejemplo podría en algún lenguaje existir la función llamada <span style="color: #800000;"><strong>audio</strong> </span>que tenga como tarea crear una señal de audio. Pero para crear esta señal de audio necesita ciertos...</span></li>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"><strong>Parámetros de la función</strong>. Son los datos necesarios para hacer un proceso. Por ejemplo, podríamos decir que nuestra señal de audio periódica necesita de una valor que controle la <span style="color: #0000ff;"><strong>amplitud</strong></span>, la <span style="color: #0000ff;"><strong>frecuencia</strong> </span>y la <span style="color: #0000ff;"><strong>forma de onda</strong></span>. Una vez que realice la tarea, el producto tenemos que guardarlo en algún lugar...</span></li>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"><strong>Variable resultante</strong>. Es un espacio en la memoria de un computador donde almacenamos un dato, en nuestro ejemplo podríamos decir que el resultado lo guarde en el espacio que llamaremos <strong><span style="color: #008000;">resultado</span></strong>.</span></li>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Delimitadores. Algunos lenguajes utilizan ciertos caracteres para delimitar todo lo anteriormente descrito.</span></li>
+</ul>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Por ejemplo si en el lenguaje C existiese esa supuesta función, lo más probable es que lo encontremos algo así en el manual de referencia de ese lenguaje:</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"><img src="function_seudo_c.jpg" alt="seudo c" width="923" height="310" /></span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Existe en música otro lenguaje muy popular, sobre todo en los investigadores y compositores de la Universidad de Standford, denominado LISP. Mira cómo está la sintaxis para las funciones en ese lenguaje:</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"><img src="seudo_Lisp.jpg" alt="seudo lisp" width="922" height="279" style="display: block; margin-left: auto; margin-right: auto;" /><br /></span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Ahora que ya hemos visto cómo se <em>redactan</em> algunas <em>funciones </em>en algunos lenguajes de programación, veamos cómo sería esa supuesta función (<em>opcode</em>) en Csound:</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"><img src="seudo_csound.jpg" alt="seudo csound" width="911" height="329" style="display: block; margin-left: auto; margin-right: auto;" /></span></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id45">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Variables en Csound</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta45_152_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Para conocer un idioma (castellano, inglés, chino mandarín, etc.) necesitamos, tarde o temprano, conocer cómo se construyen las expresiones (sintaxis), qué palabras podemos usar (vocabulario) y cómo crear palabras nuevas.</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">El manual de Csound vendría a ser nuestro diccionario, ahí están todas las <em>palabras</em> (opcodes) que Csound utiliza.</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">También te da una referencia de cómo crear palabras nuevas, sobre todo para las variables. En algunos lenguajes esto se denomina <em>declaración de variables</em>. </span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Por ahora sólo mencionaremos las que necesitamos con urgencia. En Csound debemos empezar a conocer los siguientes tipos de variables:</span></p>
+<ul>
+<li style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Aquellas cuyos nombres empiezan con la letra minúscula <strong>a</strong></span>. <span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Éstas son variables que guardan señales de audio.</span></li>
+<li style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Aquellas cuyos nombres empiezan con la letra minúscula <strong>k</strong>. Éstas son variables que guardan señales de control.</span></li>
+<li style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Aquellas cuyos nombres empiezan con la letra minúscula <strong>x</strong>. Variables que pueden ser cualquiera de las anteriores</span></li>
+<li style="text-align: justify;"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Aquellas cuyos nombres empiezan con la letra mayúscula <strong>S</strong>. Variables que guardan texto o cadena de caracteres.</span></li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id46">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Actividad. Exploración del manual Csound</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta46_153_2" class="block iDevice_content">
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Accede al <a href="http://www.csounds.com/manual/html/" target="_blank" rel="noopener">manual de Csound </a>y busca la sección <strong>Generadores de audio</strong>. Explora alguna de ellas y trata de identificar </span></p>
+<ul>
+<li><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">¿Qué tipo de variable acepta: audio, control, ambas?</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id47">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Patio de juegos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta47_154_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;"><a href="https://kunstmusik.com" target="_blank" rel="noopener">Steven Yi</a> ha implementado un sitio web para poder experimentar con el lenguaje <a href="https://ide.csound.com" target="_blank" rel="noopener">Csound en directo</a>. Puedes tocar tus proyecto en tiempo real desde cualquier terminal. Tiene control remoto MIDI incorporado y acepta entrada de audio para procesamiento de señal. Prueba desde <a href="https://ide.csound.com/editor/eFYG0gBxPzx4dU6u7Mxc" target="_blank" rel="noopener">tu navegador</a>.</span></p>
+<p><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Sería buena idea, con tu cuenta académica, registrarte y jugar un poco.</span></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
 <div id="packageLicense" class="cc cc-by-sa">
 <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
 </div>
