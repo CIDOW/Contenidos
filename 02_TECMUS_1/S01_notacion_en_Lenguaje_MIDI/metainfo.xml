@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<presentation availableOffline="1" guid="09A2404E-CF3D-4792-A0EF-4ACB97B52231" version="0">
+	<info>
+		<title>S01_notacion_en_Lenguaje_MIDI</title>
+		<description/>
+	</info>
+	<files index="id49" thumbnail="id45" totalSize="4138499">
+		<file id="id0">data/apple-touch-icon.png</file>
+		<file id="id1">data/browsersupport.js</file>
+		<file id="id2">data/favicon.ico</file>
+		<file id="id3">data/fonts/fnt0.woff</file>
+		<file id="id4">data/fonts/fnt1.woff</file>
+		<file id="id5">data/fonts/fnt2.woff</file>
+		<file id="id6">data/fonts/fnt3.woff</file>
+		<file id="id7">data/html5-unsupported.html</file>
+		<file id="id8">data/html5.png</file>
+		<file id="id9">data/images/img-05c1e0d7d51cfd410525716ef54d94d6b4955139.jpg</file>
+		<file id="id10">data/images/img-0a2a401b59a8799a7fffdeacac973b030d6fecee.jpg</file>
+		<file id="id11">data/images/img-0dfd5df2cf8ddb8999b60f71036c2e3b7ce57ce6.jpg</file>
+		<file id="id12">data/images/img-11d25a886b99f6b07b3231be010e89975923f9c4.jpg</file>
+		<file id="id13">data/images/img-18f374c5d94c33132aaba8b004706267ee307eaf.jpg</file>
+		<file id="id14">data/images/img-1d903b24594e363b7537429bac78af145dde5900.jpg</file>
+		<file id="id15">data/images/img-1e13ddf65be0fcb2808bb2d16eae640bf9d63bff.jpg</file>
+		<file id="id16">data/images/img-2335edbb4473d47c281dc3a0d453d9bc10ba0f5b.jpg</file>
+		<file id="id17">data/images/img-2d1cd72fd6d233dfe256d24838fcdd85f51a5d70.jpg</file>
+		<file id="id18">data/images/img-413efd2e798680a84e1876e5cd8ef123afc75225.jpg</file>
+		<file id="id19">data/images/img-47b5545ed29a1290621c3ea5ba2eabe606c80750.jpg</file>
+		<file id="id20">data/images/img-47ef6d321a40ad4955b004c39aeb3c9ee00e26f6.jpg</file>
+		<file id="id21">data/images/img-4a507d1f1a32a0a68190baadb6f91c304e4ef6b6.jpg</file>
+		<file id="id22">data/images/img-4babdac2910a825581c1913080831fa1f10a4890.jpg</file>
+		<file id="id23">data/images/img-5a4ef5c91aad671c1305b0b4f5915f29671758ca.jpg</file>
+		<file id="id24">data/images/img-5c146ee90ada78c88c45f020f129808a833a03ae.jpg</file>
+		<file id="id25">data/images/img-5d0b03c8c7583df866940c3931f1f64204731f59.jpg</file>
+		<file id="id26">data/images/img-688477331ac6c7da92f2a2032ea754556d5d6405.jpg</file>
+		<file id="id27">data/images/img-688d1691beca2db0003590c29b692eedb7cbedaa.jpg</file>
+		<file id="id28">data/images/img-910197628c2fca2bf63028c6196cd9389f68b37f.jpg</file>
+		<file id="id29">data/images/img-9d7e7200a8c3e0f5c28585f87fe160ec9bb214b0.jpg</file>
+		<file id="id30">data/images/img-a4a4b05c7e127bf36b951a4bb56cf96512dcd906.jpg</file>
+		<file id="id31">data/images/img-a92acd9a212c5d5df68c389d53283d2586df4b42.jpg</file>
+		<file id="id32">data/images/img-ac8e5716d4d00e33849692ef867a697e48de9070.jpg</file>
+		<file id="id33">data/images/img-b3abd9121869a47f7a06357cdb657e82506e05e8.jpg</file>
+		<file id="id34">data/images/img-b955dc5f7cc1dd2c9722ca2399e296fb6fda7cb9.jpg</file>
+		<file id="id35">data/images/img-da0d7a5a4277ece07eb3721b3f1f1358329ccd19.jpg</file>
+		<file id="id36">data/images/img-e1bd49714899f39f4958cd77aaa5d49229fcdc34.jpg</file>
+		<file id="id37">data/images/img-e28276bf515d3a03f13123cd9457d9d698e12054.jpg</file>
+		<file id="id38">data/images/img-e3a425231a0effe66c24fb828dba8e93a3cd8038.jpg</file>
+		<file id="id39">data/images/img-f8bb1a2b49cbaa962361a538d92c89476deffba0.jpg</file>
+		<file id="id40">data/images/img-fe072dead2c1a87b7a4d5e1d2e96cc3b784bf2e4.jpg</file>
+		<file id="id41">data/images/img-fe7413c4fe6c77156ba157bae3af78a06669499b.jpg</file>
+		<file id="id42">data/images/img-ffdad0e54d0fb5caee507e9358684d03ccea44e5.jpg</file>
+		<file id="id43">data/ismplayer/app_store2x.png</file>
+		<file id="id44">data/ismplayer/play.svg</file>
+		<file id="id45">data/ismplayer/preview.png</file>
+		<file id="id46">data/ismplayer/style.css</file>
+		<file id="id47">data/ismplayer/style_mini.css</file>
+		<file id="id48">data/player.js</file>
+		<file id="id49">index.html</file>
+		<file id="id50">ismplayer.html</file>
+		<file id="id51">preview.png</file>
+	</files>
+</presentation>
+
