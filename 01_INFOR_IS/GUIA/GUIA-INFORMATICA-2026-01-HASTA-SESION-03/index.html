@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Created with iSpring --><!-- 964 604 --><!--version 11.3.5.15004 --><!--type html --><!--mainFolder ./ --><!--content book -->
+<!--
+Copyright 2012 Mozilla Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Adobe CMap resources are covered by their own copyright but the same license:
+
+    Copyright 1990-2015 Adobe Systems Incorporated.
+
+See https://github.com/adobe-type-tools/cmap-resources
+-->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="msapplication-tap-highlight" content="no"/>
+	<title>GUIA DE PRÁCTICAS - MAQUETACIÓN DE DOCUMENTOS ACADÉMICOS</title>
+	<link rel="stylesheet" href="data/css/viewer.css"/>
+	<script src="data/js/browsersupport.js"></script>
+	<script src="data/js/viewer.js"></script>
+	
+	
+	<script>
+		var book = "eNqFVMtu4zYU/RVCwKAbWxi/ktg7SqJtTWRJleSkRjEQaJmx1SiiQFJJ1ThAu+y6/9AfyZ/0S3r1iN0ZJKgXMnkf5z7OvXzWVKoyps20xdrGyCLID17/MCPbxCHqoxX+cU0ibNqvf7m10vLM9Yq4kRcibGLr9c+VbXqh1tMKumdh+huT2uznZ03CCQ6T6UQfDT+ffoPe1XigT4dfe5qg+b42GfQGw8HXF5BImilIY345uSDGxfxiTKwxMUxjZBjGcIqnZGRd4fEcYh2odHhCsxsmZMpzbaZEyRqxT6V84mKnze5oJkGWDq5A/6wRK8bhdezjMLz1Aiu2bOx4i9h2b7BjW2e5gw3iQBbRgaGiA0MsV0ywHXqiEqV5woVgidKRnzEqGVKiQnRP01yH1D6I8wZLaqQzsOKIFyxH6pBKtOX8fvYxhO9gkyw9xyIBAJ0KbexN7JoNvknzhGWt0PEw2DZ/tntOweF0l+b7f37/uzXzrkEIn57mGzE2TRKGtmE7drSJzYDgCExu7WhZgwtGVd2GVB1QGhYCYBB7pFlJFdCAHjs63kNaBwFMDRS1IIBk55IJBWUzlJcPW2gJv2tuSQm9zRWqp+k9nIUXebFLforqeeV1/xoM9uv/uPgBufnGpRDsMeWl/K+bZcWG512vcHAdLwluG413dbeQAeQ8UHEv37GN2nxuD8BkxcsfBEPQqdqthxQtmnhv/mhbKgW9gjSa6/dF6x3+wjsRRve8Fb4FDOMIG6D4LicLb8KT045WnXjprYOz/NAFWNnuOiJn+UM7vrXGc6NlKw9B8YXm+nHOtvpxRYV+xIWoT9XxS5kz+GTVEZd7/RiyQulHD9bi6PJH/WixpMNzvdhbR47t1sS70H26zVjNd8JhGXLVpdnZdKWZ3+jqqTll6kOX0KdG5K5XBgk+tUYBMWHCnE3NDbHA8JdSKpTzp1a9dvENtgHEIbGBXRc2o+Ntw0uUUBjflD01SygRz7OqHXOKbtkWwbTCcOsfI9mRQzpGUFFus1QeukXhpYJi77I0h6HLaLWlyT2SZVFwoVq8DQkjEgB7pxIrJuGZAAq1F3hYBVfw3MwFfzB5UcFUnR63O7gwUe9h/XCOxtZwQqbD/ngyHfWvPl9c9gdz87I/uZyORuZwOBpZGCKmsllcH3Kxocl70SzvCVNAbC5YqGDV3x5Wltec4SRhUqbbNEtVteI71vm8/Avfc/gi";
+
+		document.addEventListener("DOMContentLoaded", function() {
+			PdfViewer.checkMobileIntegration(book);
+
+			var viewerInitCallback = function(viewer) {
+				
+			};
+
+			var startupApplication = function(initViewerState) {
+				var fileOpenParams = {"type":"fileName","filePath":"data\/book.pdf"};
+				PdfViewer.open(fileOpenParams, document.body, book, viewerInitCallback, initViewerState);
+			};
+
+			(function(startupFunc) {
+				if (startupFunc)
+				{
+					startupFunc(startupApplication);
+				}
+				else
+				{
+					startupApplication();
+				}
+			})();
+		});
+	</script>
+</head>
+<body></body>
+</html>
