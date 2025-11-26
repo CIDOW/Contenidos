@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta de Optimización Académica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { 
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen py-8">
+    <div class="max-w-5xl mx-auto p-8 bg-white rounded-lg shadow-lg">
+        <!-- Header -->
+        <div class="text-center mb-8 border-b-4 border-blue-600 pb-6">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">
+                PROPUESTA DE OPTIMIZACIÓN ACADÉMICA
+            </h1>
+            <p class="text-lg text-gray-600">
+                Reducción de Horas Muertas y Optimización de Recursos Docentes
+            </p>
+        </div>
+
+        <!-- Problema Actual -->
+        <div class="bg-red-50 border-l-4 border-red-500 p-6 mb-8">
+            <h2 class="text-xl font-bold text-red-800 mb-3 flex items-center gap-2">
+                <i class="fas fa-calendar-alt w-6 h-6"></i>
+                SITUACIÓN ACTUAL
+            </h2>
+            <div class="grid grid-cols-2 gap-4 text-gray-700">
+                <div>
+                    <p class="font-semibold">📅 Duración:</p>
+                    <p class="text-2xl font-bold text-red-600">3 DÍAS</p>
+                </div>
+                <div>
+                    <p class="font-semibold">⏰ Horas muertas:</p>
+                    <p class="text-2xl font-bold text-red-600">MÚLTIPLES</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Propuesta -->
+        <div class="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
+            <h2 class="text-xl font-bold text-green-800 mb-3 flex items-center gap-2">
+                <i class="fas fa-check-circle w-6 h-6"></i>
+                PROPUESTA
+            </h2>
+            <div class="grid grid-cols-2 gap-4 text-gray-700">
+                <div>
+                    <p class="font-semibold">📅 Duración:</p>
+                    <p class="text-2xl font-bold text-green-600">1 DÍA</p>
+                </div>
+                <div>
+                    <p class="font-semibold">⏰ Horas muertas:</p>
+                    <p class="text-2xl font-bold text-green-600">0-1 MAX</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Beneficios Clave -->
+        <div class="bg-blue-50 p-6 rounded-lg mb-8">
+            <h2 class="text-xl font-bold text-blue-800 mb-4">BENEFICIOS CLAVE</h2>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="flex items-start gap-3">
+                    <i class="fas fa-chart-line w-6 h-6 text-blue-600 flex-shrink-0 mt-1"></i>
+                    <div>
+                        <p class="font-semibold text-gray-800">Reducción drástica</p>
+                        <p class="text-sm text-gray-600">De 3 días a 1 día de asistencia</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3">
+                    <i class="fas fa-users w-6 h-6 text-blue-600 flex-shrink-0 mt-1"></i>
+                    <div>
+                        <p class="font-semibold text-gray-800">Prioridad justa</p>
+                        <p class="text-sm text-gray-600">Por orden de matrícula</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3">
+                    <i class="fas fa-dollar-sign w-6 h-6 text-blue-600 flex-shrink-0 mt-1"></i>
+                    <div>
+                        <p class="font-semibold text-gray-800">Optimización de costos</p>
+                        <p class="text-sm text-gray-600">Contratación basada en demanda</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3">
+                    <i class="fas fa-calendar w-6 h-6 text-blue-600 flex-shrink-0 mt-1"></i>
+                    <div>
+                        <p class="font-semibold text-gray-800">Mejor experiencia</p>
+                        <p class="text-sm text-gray-600">Menos tiempo desperdiciado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabla de Escenarios -->
+        <div class="mb-8">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">ESCENARIOS DE IMPLEMENTACIÓN</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full border-collapse border border-gray-300">
+                    <thead>
+                        <tr class="bg-blue-600 text-white">
+                            <th class="border border-gray-300 p-3 text-left">Matriculados</th>
+                            <th class="border border-gray-300 p-3 text-center">Grupos</th>
+                            <th class="border border-gray-300 p-3 text-center">Docentes</th>
+                            <th class="border border-gray-300 p-3 text-center">Sin Horas Muertas</th>
+                            <th class="border border-gray-300 p-3 text-center">% Óptimo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-gray-50">
+                            <td class="border border-gray-300 p-3 font-semibold">33</td>
+                            <td class="border border-gray-300 p-3 text-center">3</td>
+                            <td class="border border-gray-300 p-3 text-center">3</td>
+                            <td class="border border-gray-300 p-3 text-center">27 de 33</td>
+                            <td class="border border-gray-300 p-3 text-center">
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full font-semibold">82%</span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="border border-gray-300 p-3 font-semibold">36</td>
+                            <td class="border border-gray-300 p-3 text-center">3</td>
+                            <td class="border border-gray-300 p-3 text-center">5</td>
+                            <td class="border border-gray-300 p-3 text-center">24 de 36</td>
+                            <td class="border border-gray-300 p-3 text-center">
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full font-semibold">67%</span>
+                            </td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td class="border border-gray-300 p-3 font-semibold">45</td>
+                            <td class="border border-gray-300 p-3 text-center">4</td>
+                            <td class="border border-gray-300 p-3 text-center">5</td>
+                            <td class="border border-gray-300 p-3 text-center">33 de 45</td>
+                            <td class="border border-gray-300 p-3 text-center">
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full font-semibold">73%</span>
+                            </td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="border border-gray-300 p-3 font-semibold">51</td>
+                            <td class="border border-gray-300 p-3 text-center">4</td>
+                            <td class="border border-gray-300 p-3 text-center">4</td>
+                            <td class="border border-gray-300 p-3 text-center">39 de 51</td>
+                            <td class="border border-gray-300 p-3 text-center">
+                                <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full font-semibold">76%</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Detalle de Contratación por Escenario -->
+        <div class="mb-8">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">CONTRATACIÓN DOCENTE POR ESCENARIO</h2>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="border border-gray-300 rounded-lg p-4 bg-gray-50">
+                    <h3 class="font-bold text-lg text-blue-700 mb-2">33 Estudiantes</h3>
+                    <p class="text-sm text-gray-600 mb-2"><span class="font-semibold">3 docentes</span> para 3 grupos</p>
+                    <ul class="text-sm space-y-1">
+                        <li class="flex items-start gap-2"><span class="text-blue-600">•</span> <span>1 Secuenciación (2 grupos)</span></li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600">•</span> <span>1 Piano (3 grupos)</span></li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600">•</span> <span>1 Lenguaje Musical (2 grupos)</span></li>
+                    </ul>
+                </div>
+                <div class="border border-gray-300 rounded-lg p-4 bg-gray-50">
+                    <h3 class="font-bold text-lg text-blue-700 mb-2">36 Estudiantes</h3>
+                    <p class="text-sm text-gray-600 mb-2"><span class="font-semibold">5 docentes</span> para 3 grupos</p>
+                    <ul class="text-sm space-y-1">
+                        <li class="flex items-start gap-2"><span class="text-blue-600">•</span> <span>2 Secuenciación</span></li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600">•</span> <span>1 Piano (3 grupos)</span></li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600">•</span> <span>2 Lenguaje Musical</span></li>
+                    </ul>
+                </div>
+                <div class="border border-gray-300 rounded-lg p-4 bg-gray-50">
+                    <h3 class="font-bold text-lg text-blue-700 mb-2">45 Estudiantes</h3>
+                    <p class="text-sm text-gray-600 mb-2"><span class="font-semibold">5 docentes</span> para 4 grupos</p>
+                    <ul class="text-sm space-y-1">
+                        <li class="flex items-start gap-2"><span class="text-blue-600">•</span> <span>2 Secuenciación (3+1 grupos)</span></li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600">•</span> <span>1 Piano (3 grupos)</span></li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600">•</span> <span>2 Lenguaje Musical (2+1 grupos)</span></li>
+                    </ul>
+                </div>
+                <div class="border border-gray-300 rounded-lg p-4 bg-gray-50">
+                    <h3 class="font-bold text-lg text-blue-700 mb-2">51 Estudiantes</h3>
+                    <p class="text-sm text-gray-600 mb-2"><span class="font-semibold">4 docentes</span> para 4 grupos</p>
+                    <ul class="text-sm space-y-1">
+                        <li class="flex items-start gap-2"><span class="text-blue-600">•</span> <span>1 Secuenciación (3 grupos)</span></li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600">•</span> <span>1 Piano (4 grupos)</span></li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600">•</span> <span>2 Lenguaje Musical (2+1 grupos)</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sistema de Prioridad -->
+        <div class="bg-gradient-to-r from-green-50 to-purple-50 p-6 rounded-lg mb-8">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">SISTEMA DE PRIORIDAD</h2>
+            <div class="space-y-3">
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center text-white font-bold">V</div>
+                    <div>
+                        <p class="font-semibold text-gray-800">Grupo Verde</p>
+                        <p class="text-sm text-gray-600">Primera prioridad - 0 horas muertas</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 bg-red-500 rounded-lg flex items-center justify-center text-white font-bold">R</div>
+                    <div>
+                        <p class="font-semibold text-gray-800">Grupo Rojo</p>
+                        <p class="text-sm text-gray-600">Segunda prioridad - 0 horas muertas</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center text-white font-bold">A</div>
+                    <div>
+                        <p class="font-semibold text-gray-800">Grupo Amarillo</p>
+                        <p class="text-sm text-gray-600">Tercera prioridad - 0 horas muertas</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center text-white font-bold">P</div>
+                    <div>
+                        <p class="font-semibold text-gray-800">Grupo Púrpura</p>
+                        <p class="text-sm text-gray-600">Última prioridad - Máximo 1 hora muerta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conclusión -->
+        <div class="bg-gray-800 text-white p-6 rounded-lg">
+            <h2 class="text-xl font-bold mb-3">CONCLUSIÓN</h2>
+            <p class="mb-4">
+                Esta propuesta garantiza una <strong>experiencia académica superior</strong> al:
+            </p>
+            <ul class="space-y-2 ml-6">
+                <li>✓ Concentrar 3 materias en un solo día (vs. 3 días actuales)</li>
+                <li>✓ Minimizar horas muertas para 67-82% de estudiantes</li>
+                <li>✓ Optimizar contratación docente según demanda real</li>
+                <li>✓ Implementar sistema justo de priorización</li>
+            </ul>
+            <p class="mt-4 text-yellow-300 font-semibold">
+                Impacto esperado: Mayor satisfacción estudiantil y eficiencia operativa
+            </p>
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-8 text-center text-sm text-gray-500 border-t pt-4">
+            <p>Propuesta basada en análisis de 4 escenarios (33, 36, 45 y 51 estudiantes)</p>
+            <p>Anexos: Hojas de cálculo con distribución detallada por escenario</p>
+        </div>
+    </div>
+
+    <script>
+        // Inicializar iconos de Lucide (aunque usamos Font Awesome como fallback)
+        if (typeof lucide !== 'undefined') {
+            lucide.createIcons();
+        }
+    </script>
+</body>
+</html>
