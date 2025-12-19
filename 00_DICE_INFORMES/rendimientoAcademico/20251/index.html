@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe Académico 2025-1 | IES Orson Welles</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Reddit Sans', Arial, sans-serif;
+            background: #f1efe7;
+            color: #00574C;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+        }
+        
+        /* Header institucional */
+        header {
+            background: #f1efe7;
+            color: #00574C;
+            padding: 50px 40px;
+            border-bottom: 4px solid #00CB80;
+        }
+        
+        header h1 {
+            font-size: 2.2em;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        header p {
+            font-size: 1.1em;
+            font-weight: 300;
+            opacity: 0.75;
+        }
+        
+        .meta-info {
+            margin-top: 20px;
+            font-size: 0.9em;
+            opacity: 0.65;
+        }
+        
+        /* Sección de métricas principales */
+        .metrics-section {
+            padding: 40px;
+            background: white;
+        }
+        
+        .section-title {
+            font-size: 1.6em;
+            color: #00574C;
+            margin-bottom: 30px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #00CB80;
+            font-weight: 600;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+        
+        .metric-card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #00574C;
+            box-shadow: 0 2px 8px rgba(0, 87, 76, 0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0, 87, 76, 0.15);
+        }
+        
+        .metric-label {
+            font-size: 0.85em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .metric-value {
+            font-size: 2.5em;
+            font-weight: 600;
+            color: #00574C;
+            margin: 8px 0;
+        }
+        
+        .metric-description {
+            font-size: 0.9em;
+            color: #00574C;
+            margin-top: 10px;
+            opacity: 0.8;
+        }
+        
+        /* Alertas críticas */
+        .alerts-section {
+            padding: 40px;
+            background: #f1efe7;
+        }
+        
+        .alerts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+        
+        .alert-card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #ef4444;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+        }
+        
+        .alert-card.warning {
+            border-left-color: #f59e0b;
+        }
+        
+        .alert-title {
+            font-size: 1.15em;
+            font-weight: 600;
+            color: #00574C;
+            margin-bottom: 12px;
+        }
+        
+        .alert-metrics {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin: 12px 0;
+        }
+        
+        .metric-badge {
+            background: #fef3c7;
+            color: #92400e;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+        
+        .metric-badge.critical {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+        
+        .alert-text {
+            color: #00574C;
+            font-size: 0.95em;
+            line-height: 1.6;
+            margin-top: 12px;
+        }
+        
+        /* Comparación de programas */
+        .comparison-section {
+            padding: 40px;
+            background: white;
+        }
+        
+        .programs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+            margin-top: 25px;
+        }
+        
+        .program-card {
+            background: #f8fbfc;
+            padding: 30px;
+            border-radius: 8px;
+            border-top: 4px solid #00574C;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+        }
+        
+        .program-header {
+            font-size: 1.4em;
+            font-weight: 600;
+            color: #00574C;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #00CB80;
+        }
+        
+        .metric-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .metric-row:last-child {
+            border-bottom: none;
+        }
+        
+        .metric-name {
+            color: #666;
+            font-weight: 500;
+            font-size: 0.95em;
+        }
+        
+        .metric-value-inline {
+            font-weight: 600;
+            font-size: 1.05em;
+            color: #00574C;
+        }
+        
+        .metric-value-inline.good {
+            color: #00CB80;
+        }
+        
+        .metric-value-inline.warning {
+            color: #f59e0b;
+        }
+        
+        .metric-value-inline.critical {
+            color: #ef4444;
+        }
+        
+        /* Recomendaciones */
+        .recommendations-section {
+            padding: 40px;
+            background: #f8fbfc;
+        }
+        
+        .recommendations-list {
+            display: grid;
+            gap: 18px;
+            margin-top: 25px;
+        }
+        
+        .recommendation-card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #00574C;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+        }
+        
+        .recommendation-card.urgent {
+            border-left-color: #ef4444;
+        }
+        
+        .priority-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+        
+        .priority-urgent {
+            background: #ef4444;
+            color: white;
+        }
+        
+        .priority-high {
+            background: #f1efe7;
+            color: #00574C;
+        }
+        
+        .recommendation-text {
+            color: #333;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+        
+        .recommendation-text strong {
+            color: #00574C;
+        }
+        
+        /* Footer */
+        footer {
+            background: #f1efe7;
+            color: #00574C;
+            padding: 35px 40px;
+            text-align: center;
+            border-top: 4px solid #00CB80;
+        }
+        
+        footer p {
+            margin: 6px 0;
+            font-weight: 300;
+        }
+        
+        footer strong {
+            font-weight: 600;
+        }
+        
+        .footer-meta {
+            margin-top: 15px;
+            font-size: 0.9em;
+            opacity: 0.7;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            header {
+                padding: 30px 20px;
+            }
+            
+            header h1 {
+                font-size: 1.6em;
+            }
+            
+            .metrics-section,
+            .alerts-section,
+            .comparison-section,
+            .recommendations-section {
+                padding: 25px 20px;
+            }
+            
+            .metrics-grid,
+            .alerts-grid,
+            .programs-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            footer {
+                padding: 25px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Informe Académico 2025-1</h1>
+            <p>Análisis de Rendimiento y Deserción Estudiantil</p>
+            <div class="meta-info">
+                IES Orson Welles | Departamento de Innovación y Calidad Educativa (D.I.C.E.)
+            </div>
+        </header>
+        
+        <section class="metrics-section">
+            <h2 class="section-title">📊 Métricas Institucionales</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-label">Aprobación Institucional</div>
+                    <div class="metric-value">92.1%</div>
+                    <div class="metric-description">9 de cada 10 estudiantes aprueban sus unidades didácticas</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-label">Deserción Total</div>
+                    <div class="metric-value">12.3%</div>
+                    <div class="metric-description">346 matrículas perdidas en el ciclo académico</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-label">Población Estudiantil</div>
+                    <div class="metric-value">382</div>
+                    <div class="metric-description">229 estudiantes en IS | 153 en PM</div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-label">Matrículas U.D.</div>
+                    <div class="metric-value">2,817</div>
+                    <div class="metric-description">Unidades didácticas analizadas en el ciclo</div>
+                </div>
+            </div>
+        </section>
+       
+        <section class="alerts-section">
+            <h2 class="section-title">🚨 Alertas Críticas</h2>
+            
+            <div class="alerts-grid">
+                <div class="alert-card">
+                    <div class="alert-title">Crisis PM: Ciclos 1 y 2</div>
+                    <div class="alert-metrics">
+                        <span class="metric-badge critical">28.8% deserción C1</span>
+                        <span class="metric-badge critical">22.7% deserción C2</span>
+                        <span class="metric-badge">84% concentración</span>
+                    </div>
+                    <div class="alert-text">
+                        Los dos primeros ciclos concentran el 84% de toda la deserción del programa (155 de 184 casos). 
+                        Patrón evolutivo identificado: retiros formales en C1 migran hacia abandonos silenciosos en C2.
+                    </div>
+                </div>
+                
+                <div class="alert-card">
+                    <div class="alert-title">Cuello de Botella IS: Ciclo 1</div>
+                    <div class="alert-metrics">
+                        <span class="metric-badge critical">22.8% deserción</span>
+                        <span class="metric-badge">16% desaprobación</span>
+                        <span class="metric-badge">68.5% del total</span>
+                    </div>
+                    <div class="alert-text">
+                        Concentra 111 de 162 deserciones del programa. Cursos críticos: Lectura Musical I 
+                        (22.4% desaprobación + 28.6% deserción) e Informática (20.8% + 28.4%). Requiere intervención inmediata.
+                    </div>
+                </div>
+                
+                <div class="alert-card warning">
+                    <div class="alert-title">Tecnología Musical 2 (IS-C3)</div>
+                    <div class="alert-metrics">
+                        <span class="metric-badge critical">40% desaprobación</span>
+                    </div>
+                    <div class="alert-text">
+                        Tasa de desaprobación más alta registrada en toda la institución. 12 de 30 estudiantes desaprobaron. 
+                        Problema académico puro que requiere revisión urgente de diseño curricular y criterios de evaluación.
+                    </div>
+                </div>
+                
+                <div class="alert-card warning">
+                    <div class="alert-title">Abandono Silencioso (DPI)</div>
+                    <div class="alert-metrics">
+                        <span class="metric-badge">46% deserción institucional</span>
+                        <span class="metric-badge">49.5% en PM</span>
+                    </div>
+                    <div class="alert-text">
+                        Casi la mitad de los estudiantes que desertan lo hacen sin comunicación formal (Desaprobado por Inasistencia). 
+                        Indica falla crítica en sistemas de detección temprana y seguimiento estudiantil.
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="comparison-section">
+            <h2 class="section-title">⚖️ Análisis Comparativo por Programa</h2>
+            
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-header">Ingeniería de Sonido (IS)</div>
+                    
+                    <div class="metric-row">
+                        <span class="metric-name">Tasa de Aprobación</span>
+                        <span class="metric-value-inline good">93%</span>
+                    </div>
+                    
+                    <div class="metric-row">
+                        <span class="metric-name">Tasa de Deserción</span>
+                        <span class="metric-value-inline warning">9.48%</span>
+                    </div>
+                    
+                    <div class="metric-row">
+                        <span class="metric-name">Ciclo más crítico</span>
+                        <span class="metric-value-inline critical">Ciclo 1 (22.8%)</span>
+                    </div>
+                    
+                    <div class="metric-row">
+                        <span class="metric-name">Patrón deserción</span>
+                        <span class="metric-value-inline">55.6% retiros formales</span>
+                    </div>
+                    
+                    <div class="metric-row">
+                        <span class="metric-name">Caso de éxito</span>
+                        <span class="metric-value-inline good">Ciclo 5 (100% aprobación)</span>
+                    </div>
+                </div>
+                
+                <div class="program-card">
+                    <div class="program-header">Producción Musical (PM)</div>
+                    
+                    <div class="metric-row">
+                        <span class="metric-name">Tasa de Aprobación</span>
+                        <span class="metric-value-inline warning">91%</span>
+                    </div>
+                    
+                    <div class="metric-row">
+                        <span class="metric-name">Tasa de Deserción</span>
+                        <span class="metric-value-inline critical">16.61%</span>
+                    </div>
+                    
+                    <div class="metric-row">
+                        <span class="metric-name">Ciclos más críticos</span>
+                        <span class="metric-value-inline critical">C1 (28.8%) y C2 (22.7%)</span>
+                    </div>
+                    
+                    <div class="metric-row">
+                        <span class="metric-name">Patrón deserción</span>
+                        <span class="metric-value-inline critical">49.5% abandonos DPI</span>
+                    </div>
+                    
+                    <div class="metric-row">
+                        <span class="metric-name">Concentración crítica</span>
+                        <span class="metric-value-inline critical">84% deserción en C1-C2</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="recommendations-section">
+            <h2 class="section-title">💡 Recomendaciones Estratégicas</h2>
+            
+            <div class="recommendations-list">
+                <div class="recommendation-card urgent">
+                    <span class="priority-badge priority-urgent">Urgente - 2026-1</span>
+                    <div class="recommendation-text">
+                        <strong>Programa PM Ciclos 1-2:</strong> Implementar sistema de alerta temprana con mentoría activa. 
+                        Revisar diseño curricular de Desarrollo Personal (27.6% desaprobación + 31% deserción) y Armonía Funcional 1 
+                        (26.1% + 30.3%). Establecer protocolo de seguimiento semanal para detección de riesgo académico.
+                    </div>
+                </div>
+                
+                <div class="recommendation-card urgent">
+                    <span class="priority-badge priority-urgent">Urgente - 2026-1</span>
+                    <div class="recommendation-text">
+                        <strong>Programa IS Ciclo 1:</strong> Plan integral de reforzamiento en Lectura Musical I e Informática e Internet. 
+                        Revisar metodología de enseñanza y crear programa de nivelación dirigido. Considerar sesiones de reforzamiento 
+                        adicionales durante las primeras 8 semanas del ciclo.
+                    </div>
+                </div>
+                
+                <div class="recommendation-card urgent">
+                    <span class="priority-badge priority-urgent">Urgente - Inmediato</span>
+                    <div class="recommendation-text">
+                        <strong>Tecnología Musical 2 (IS-C3):</strong> Análisis inmediato del diseño curricular, materiales didácticos 
+                        y criterios de evaluación. Una tasa de 40% de desaprobación representa un problema sistémico crítico que requiere 
+                        intervención inmediata con la Jefatura de Carrera.
+                    </div>
+                </div>
+                
+                <div class="recommendation-card">
+                    <span class="priority-badge priority-high">Alta prioridad</span>
+                    <div class="recommendation-text">
+                        <strong>Sistema de detección temprana:</strong> Fortalecer mecanismos de seguimiento de asistencia y participación 
+                        para reducir abandonos silenciosos (DPI). Implementar alertas automáticas al alcanzar 20% de inasistencias. 
+                        Enfoque especial en PM-Ciclo 2 donde el patrón DPI es más pronunciado.
+                    </div>
+                </div>
+                
+                <div class="recommendation-card">
+                    <span class="priority-badge priority-high">Alta prioridad</span>
+                    <div class="recommendation-text">
+                        <strong>Investigación cualitativa:</strong> Realizar encuestas de salida estructuradas y grupos focales con estudiantes 
+                        desertores para identificar causas no académicas. Priorizar cursos con alta deserción pero baja desaprobación, 
+                        que sugieren factores externos al rendimiento académico.
+                    </div>
+                </div>
+                
+                <div class="recommendation-card">
+                    <span class="priority-badge priority-high">Mediano plazo - 2026-2</span>
+                    <div class="recommendation-text">
+                        <strong>Documentación de buenas prácticas:</strong> Analizar y documentar el modelo pedagógico del Ciclo 5 de IS 
+                        (100% aprobación, 0% deserción) como caso de referencia institucional. Identificar factores replicables en otros 
+                        ciclos: metodología docente, recursos utilizados, dinámicas de grupo, estructura de evaluación.
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p><strong>Departamento de Innovación y Calidad Educativa (D.I.C.E.)</strong></p>
+            <p>IES Orson Welles | Lima, Perú</p>
+            <div class="footer-meta">
+                Ciclo Académico 2025-1 | Análisis basado en 2,817 matrículas en unidades didácticas<br>
+                Elaborado por: Julio Benavides | Fecha: Diciembre 2025
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
